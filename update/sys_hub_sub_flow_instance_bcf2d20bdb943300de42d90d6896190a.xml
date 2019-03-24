@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_sub_flow_instance">
+    <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
+        <comment>Create Block Requests for Malicious Observables</comment>
+        <display_text/>
+        <flow display_value="Malware_Playbook_Enterprise">3ee2120bdb943300de42d90d689619b7</flow>
+        <inputs/>
+        <inputs/>
+        <order>24.1.1</order>
+        <parent_ui_id>2e09f039-cb3e-4651-91b1-54c688987ed6</parent_ui_id>
+        <subflow display_value="Create Block Requests V1">fa531756b3412300ed7fc9c316a8dc16</subflow>
+        <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-24 19:26:48</sys_created_on>
+        <sys_id>bcf2d20bdb943300de42d90d6896190a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Secops_FDLibrary" source="x_snc_secops_fdlib">16025ac3db943300de42d90d6896199a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name>sys_hub_sub_flow_instance_bcf2d20bdb943300de42d90d6896190a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-24 19:26:48</sys_updated_on>
+        <ui_id>5434cfc6-f820-46d1-9edf-67e0a25b7d9d</ui_id>
+    </sys_hub_sub_flow_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bcf2d20bdb943300de42d90d6896190a"/>
+    <sys_element_mapping action="delete_multiple" query="id=bcf2d20bdb943300de42d90d6896190a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>incidentsysid</field>
+        <id>bcf2d20bdb943300de42d90d6896190a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-24 19:26:48</sys_created_on>
+        <sys_id>30f2d20bdb943300de42d90d68961910</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-24 19:26:48</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_fa531756b3412300ed7fc9c316a8dc16</table>
+        <value>{{Created or Updated_1.current.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>observables</field>
+        <id>bcf2d20bdb943300de42d90d6896190a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-24 19:26:48</sys_created_on>
+        <sys_id>f0f2d20bdb943300de42d90d68961910</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-24 19:26:48</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_fa531756b3412300ed7fc9c316a8dc16</table>
+        <value>{{9ed2d211-20fd-43ff-98bc-0036d4aa51d8.observables}}</value>
+    </sys_element_mapping>
+</record_update>
