@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Security Operations Spoke" source="sn_sec_spoke">8ef54857dbc14300d11f77bcbf961975</dependency>
+        <min_version>8.secops-dev.0-SNAPSHOT</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-24 19:43:41</sys_created_on>
+        <sys_id>ccd6decbdb943300de42d90d68961981</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Secops_FDLibrary" source="x_snc_secops_fdlib">16025ac3db943300de42d90d6896199a</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-24 19:43:41</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>
