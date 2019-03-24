@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_sub_flow_instance">
+    <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Malware_Playbook_Enterprise_v2">79b79a0fdb943300de42d90d689619a7</flow>
+        <inputs/>
+        <inputs/>
+        <order>7.2.1</order>
+        <parent_ui_id>8fcb2576-7ff5-4552-b9d4-5b41bf24c52e</parent_ui_id>
+        <subflow display_value="Enrich Observables V1">6b19ce47b3302300ed7fc9c316a8dcbf</subflow>
+        <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-24 19:47:44</sys_created_on>
+        <sys_id>1bb71e0fdb943300de42d90d689619d7</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Secops_FDLibrary" source="x_snc_secops_fdlib">16025ac3db943300de42d90d6896199a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name>sys_hub_sub_flow_instance_1bb71e0fdb943300de42d90d689619d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-24 19:48:09</sys_updated_on>
+        <ui_id>40147b96-0033-4be6-ac16-a22c2fe58f49</ui_id>
+    </sys_hub_sub_flow_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1bb71e0fdb943300de42d90d689619d7"/>
+    <sys_element_mapping action="delete_multiple" query="id=1bb71e0fdb943300de42d90d689619d7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>observables</field>
+        <id>1bb71e0fdb943300de42d90d689619d7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-24 19:47:44</sys_created_on>
+        <sys_id>9bb71e0fdb943300de42d90d689619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-24 19:47:44</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_6b19ce47b3302300ed7fc9c316a8dcbf</table>
+        <value>{{6edef713-c480-493a-85a4-545729c3cba0.observables}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tasksysid</field>
+        <id>1bb71e0fdb943300de42d90d689619d7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-24 19:47:44</sys_created_on>
+        <sys_id>5fb71e0fdb943300de42d90d689619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-24 19:47:44</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_6b19ce47b3302300ed7fc9c316a8dcbf</table>
+        <value>{{Created or Updated_1.current.sys_id}}</value>
+    </sys_element_mapping>
+</record_update>
