@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Observables from Task V1">db64adb1b3b02300ed7fc9c316a8dce7</action_type>
+        <action_type_parent display_value="Get Observables from Task V1">6d62306db3b02300ed7fc9c316a8dc17</action_type_parent>
+        <comment>Identify all SHA256 Hashes Ids from the incident</comment>
+        <compiled_snapshot>db64adb1b3b02300ed7fc9c316a8dce7</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Malware_Playbook_Enterprise_v3">2824fa8fdbd43300de42d90d6896196d</flow>
+        <order>14.1</order>
+        <parent_ui_id>c1eb6172-b827-4a3b-92c0-54215ce557ed</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-24 21:51:51</sys_created_on>
+        <sys_id>e9243e8fdbd43300de42d90d68961991</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Secops_FDLibrary" source="x_snc_secops_fdlib">16025ac3db943300de42d90d6896199a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name>sys_hub_action_instance_e9243e8fdbd43300de42d90d68961991</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:05:45</sys_updated_on>
+        <ui_id>771d275c-b73b-488f-8856-cccf873f6584</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e9243e8fdbd43300de42d90d68961991"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e9243e8fdbd43300de42d90d68961991</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-24 21:51:51</sys_created_on>
+        <sys_id>69243e8fdbd43300de42d90d68961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-24 21:51:51</sys_updated_on>
+        <value>de3d47809f81120035c6786f957fcf11</value>
+        <variable display_value="">d364adb1b3b02300ed7fc9c316a8dcf7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e9243e8fdbd43300de42d90d68961991"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>observable_type</field>
+        <id>e9243e8fdbd43300de42d90d68961991</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-24 21:51:51</sys_created_on>
+        <sys_id>25243e8fdbd43300de42d90d68961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-24 21:51:51</sys_updated_on>
+        <table>var__m_sys_hub_action_input_db64adb1b3b02300ed7fc9c316a8dce7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tasksysid</field>
+        <id>e9243e8fdbd43300de42d90d68961991</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-24 21:51:51</sys_created_on>
+        <sys_id>e5243e8fdbd43300de42d90d68961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-24 21:51:51</sys_updated_on>
+        <table>var__m_sys_hub_action_input_db64adb1b3b02300ed7fc9c316a8dce7</table>
+        <value>{{Created or Updated_1.current.sys_id}}</value>
+    </sys_element_mapping>
+</record_update>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">878a10c1dbf9230035ec28474896193a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Malware_Playbook_Enterprise_v3">2824fa8fdbd43300de42d90d6896196d</flow>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>16</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-24 21:51:49</sys_created_on>
+        <sys_id>4524fa8fdbd43300de42d90d689619f5</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Secops_FDLibrary" source="x_snc_secops_fdlib">16025ac3db943300de42d90d6896199a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_4524fa8fdbd43300de42d90d689619f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:05:46</sys_updated_on>
+        <ui_id>07fb62f9-7bc1-4d1f-8d9f-e4fa0c7ed931</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=4524fa8fdbd43300de42d90d689619f5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>4524fa8fdbd43300de42d90d689619f5</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-24 21:51:49</sys_created_on>
+        <sys_id>0d24fa8fdbd43300de42d90d689619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-24 21:51:49</sys_updated_on>
+        <value>Detemined as Ransomware</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>4524fa8fdbd43300de42d90d689619f5</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-24 21:51:49</sys_created_on>
+        <sys_id>4924fa8fdbd43300de42d90d689619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-24 21:51:49</sys_updated_on>
+        <value>{{a783c7ee-4d15-47ad-922d-680a3a3747a2.Security Incident Flow Response Task.outcome}}=yes</value>
+        <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
+    </sys_variable_value>
+</record_update>

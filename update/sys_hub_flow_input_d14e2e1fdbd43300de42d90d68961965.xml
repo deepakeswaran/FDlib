@@ -20,30 +20,30 @@
         <default_value/>
         <defaultsort/>
         <delete_roles/>
-        <dependent>table_name</dependent>
+        <dependent/>
         <dependent_on_field/>
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>current</element>
+        <element>incidentsysid</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
         <hint/>
-        <internal_type display_value="">document_id</internal_type>
-        <label>Record</label>
+        <internal_type display_value="String">string</internal_type>
+        <label>incidentSysId</label>
         <mandatory>true</mandatory>
-        <max_length>200</max_length>
-        <model display_value="Malware_Playbook_Enterprise">3ee2120bdb943300de42d90d689619b7</model>
-        <model_id>3ee2120bdb943300de42d90d689619b7</model_id>
-        <model_table>sys_hub_flow</model_table>
-        <name>var__m_sys_hub_flow_input_3ee2120bdb943300de42d90d689619b7</name>
+        <max_length>8000</max_length>
+        <model display_value="Set Incident Severity_v2">d94e2e1fdbd43300de42d90d68961960</model>
+        <model_id>d94e2e1fdbd43300de42d90d68961960</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_d94e2e1fdbd43300de42d90d68961960</name>
         <next_element/>
-        <order>100</order>
+        <order>0</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -59,16 +59,16 @@
         <staged>false</staged>
         <sys_class_name>sys_hub_flow_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-03-24 19:26:41</sys_created_on>
-        <sys_id>0be2120bdb943300de42d90d689619f6</sys_id>
+        <sys_created_on>2019-03-25 16:04:39</sys_created_on>
+        <sys_id>d14e2e1fdbd43300de42d90d68961965</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>var__m_sys_hub_flow_input_3ee2120bdb943300de42d90d689619b7</sys_name>
+        <sys_name>var__m_sys_hub_flow_input_d94e2e1fdbd43300de42d90d68961960</sys_name>
         <sys_package display_value="Secops_FDLibrary" source="x_snc_secops_fdlib">16025ac3db943300de42d90d6896199a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
-        <sys_update_name>sys_hub_flow_input_0be2120bdb943300de42d90d689619f6</sys_update_name>
+        <sys_update_name>sys_hub_flow_input_d14e2e1fdbd43300de42d90d68961965</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-24 19:26:41</sys_updated_on>
+        <sys_updated_on>2019-03-25 16:04:39</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

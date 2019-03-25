@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">7517d801dbf9230035ec28474896191c</block>
+        <comment>Get Palo Alto WildFire Enrichment for the Hash</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Malware_Playbook_Enterprise_v3">2824fa8fdbd43300de42d90d6896196d</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Call a Workflow">e6edace2733203006715b45a4cf6a7b2</logic_definition>
+        <order>14.3.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>08d7be03-b1b1-47c5-9434-59634b0028ef</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-24 21:51:48</sys_created_on>
+        <sys_id>3024fa8fdbd43300de42d90d689619cf</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Secops_FDLibrary" source="x_snc_secops_fdlib">16025ac3db943300de42d90d6896199a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_3024fa8fdbd43300de42d90d689619cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:05:45</sys_updated_on>
+        <ui_id>6f2a29c3-de8f-419d-a41e-28a70e51e2fe</ui_id>
+        <workflow_inputs/>
+        <workflow_inputs/>
+        <workflow_reference display_value="Security Operations Palo Alto Networks - Get WildFire Data Enrichment">ab3a0054fb1312004f189e9b41706921</workflow_reference>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=3024fa8fdbd43300de42d90d689619cf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>3024fa8fdbd43300de42d90d689619cf</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-24 21:51:48</sys_created_on>
+        <sys_id>3024fa8fdbd43300de42d90d689619d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-24 21:51:48</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">4aa624e8734303006715b45a4cf6a785</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>3024fa8fdbd43300de42d90d689619cf</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-24 21:51:48</sys_created_on>
+        <sys_id>3024fa8fdbd43300de42d90d689619d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-24 21:51:48</sys_updated_on>
+        <value>sn_si_incident</value>
+        <variable display_value="">d942ebdefb1312004f189e9b417069db</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3024fa8fdbd43300de42d90d689619cf"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>current</field>
+        <id>3024fa8fdbd43300de42d90d689619cf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-24 21:51:48</sys_created_on>
+        <sys_id>bc24fa8fdbd43300de42d90d689619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-24 21:51:48</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_e6edace2733203006715b45a4cf6a7b2</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>u_file_hash</field>
+        <id>3024fa8fdbd43300de42d90d689619cf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-24 21:51:48</sys_created_on>
+        <sys_id>3824fa8fdbd43300de42d90d689619d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-24 21:51:48</sys_updated_on>
+        <table>var__m_var_dictionary_ab3a0054fb1312004f189e9b41706921</table>
+        <value>{{08d7be03-b1b1-47c5-9434-59634b0028ef.item.value}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>u_recordid</field>
+        <id>3024fa8fdbd43300de42d90d689619cf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-24 21:51:48</sys_created_on>
+        <sys_id>f824fa8fdbd43300de42d90d689619d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-24 21:51:48</sys_updated_on>
+        <table>var__m_var_dictionary_ab3a0054fb1312004f189e9b41706921</table>
+        <value>{{Created or Updated_1.current.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>u_tablename</field>
+        <id>3024fa8fdbd43300de42d90d689619cf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-24 21:51:48</sys_created_on>
+        <sys_id>bc24fa8fdbd43300de42d90d689619d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-24 21:51:48</sys_updated_on>
+        <table>var__m_var_dictionary_ab3a0054fb1312004f189e9b41706921</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="id=3024fa8fdbd43300de42d90d689619cf"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>current</field>
+        <id>3024fa8fdbd43300de42d90d689619cf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-24 21:51:48</sys_created_on>
+        <sys_id>bc24fa8fdbd43300de42d90d689619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-24 21:51:48</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_e6edace2733203006715b45a4cf6a7b2</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>u_file_hash</field>
+        <id>3024fa8fdbd43300de42d90d689619cf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-24 21:51:48</sys_created_on>
+        <sys_id>3824fa8fdbd43300de42d90d689619d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-24 21:51:48</sys_updated_on>
+        <table>var__m_var_dictionary_ab3a0054fb1312004f189e9b41706921</table>
+        <value>{{08d7be03-b1b1-47c5-9434-59634b0028ef.item.value}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>u_recordid</field>
+        <id>3024fa8fdbd43300de42d90d689619cf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-24 21:51:48</sys_created_on>
+        <sys_id>f824fa8fdbd43300de42d90d689619d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-24 21:51:48</sys_updated_on>
+        <table>var__m_var_dictionary_ab3a0054fb1312004f189e9b41706921</table>
+        <value>{{Created or Updated_1.current.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>u_tablename</field>
+        <id>3024fa8fdbd43300de42d90d689619cf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-24 21:51:48</sys_created_on>
+        <sys_id>bc24fa8fdbd43300de42d90d689619d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-24 21:51:48</sys_updated_on>
+        <table>var__m_var_dictionary_ab3a0054fb1312004f189e9b41706921</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>
