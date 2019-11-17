@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
@@ -6,6 +6,7 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="Security Operations">48783d9bdb344300346ff2b6ae9619e7</category>
+        <compiler_build/>
         <copied_from>76dcfedddb31a300de42d90d68961910</copied_from>
         <copied_from_name>Ransomware playbook</copied_from_name>
         <description>Contains incident response procedures for a ransomware</description>
@@ -14,6 +15,7 @@
         <latest_snapshot>e781badfdbd43300de42d90d68961944</latest_snapshot>
         <master_snapshot>e781badfdbd43300de42d90d68961944</master_snapshot>
         <name>Ransomware playbook_v2</name>
+        <natlang/>
         <outputs/>
         <remote_trigger_id/>
         <run_as>user</run_as>
@@ -24,9 +26,11 @@
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-25 16:18:54</sys_created_on>
+        <sys_domain>global</sys_domain>
         <sys_id>c681fe5fdbd43300de42d90d6896198a</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Ransomware playbook_v2</sys_name>
+        <sys_overrides/>
         <sys_package display_value="Secops_FDLibrary" source="x_snc_secops_fdlib">16025ac3db943300de42d90d6896199a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
@@ -37,4 +41,1041 @@
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=c681fe5fdbd43300de42d90d6896198a"/>
     <sys_variable_value action="delete_multiple" query="document_key=c681fe5fdbd43300de42d90d6896198a"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=c681fe5fdbd43300de42d90d6896198a^sys_idNOT IN02817adfdbd43300de42d90d68961997,ce817adfdbd43300de42d90d689619ad"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Response Task V1">c4bc89330b70230099b8ea7885673a4a</action_type>
+        <action_type_parent display_value="Create Response Task V1">939c09330b70230099b8ea7885673afe</action_type_parent>
+        <comment>Are backups available for encrypted files?</comment>
+        <compiled_snapshot>c4bc89330b70230099b8ea7885673a4a</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ransomware playbook_v2">c681fe5fdbd43300de42d90d6896198a</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:18:54</sys_created_on>
+        <sys_id>02817adfdbd43300de42d90d68961997</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Secops_FDLibrary" source="x_snc_secops_fdlib">16025ac3db943300de42d90d6896199a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name>sys_hub_action_instance_02817adfdbd43300de42d90d68961997</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:19:02</sys_updated_on>
+        <ui_id>5a735719-8cef-49a6-97d3-05cc0be71ed2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=02817adfdbd43300de42d90d68961997"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>02817adfdbd43300de42d90d68961997</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:18:54</sys_created_on>
+        <sys_id>42817adfdbd43300de42d90d689619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:18:54</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">9cbc89330b70230099b8ea7885673a5e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>02817adfdbd43300de42d90d68961997</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:18:54</sys_created_on>
+        <sys_id>8a817adfdbd43300de42d90d689619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:18:54</sys_updated_on>
+        <value>Are backups available ?</value>
+        <variable display_value="">58bc89330b70230099b8ea7885673a53</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=02817adfdbd43300de42d90d68961997"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_parent_task</field>
+        <id>02817adfdbd43300de42d90d68961997</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:18:54</sys_created_on>
+        <sys_id>82817adfdbd43300de42d90d689619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:18:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c4bc89330b70230099b8ea7885673a4a</table>
+        <value>{{subflow.sysid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_short_description</field>
+        <id>02817adfdbd43300de42d90d68961997</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:18:54</sys_created_on>
+        <sys_id>0a817adfdbd43300de42d90d689619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:18:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c4bc89330b70230099b8ea7885673a4a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_wait_for_completion</field>
+        <id>02817adfdbd43300de42d90d68961997</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:18:54</sys_created_on>
+        <sys_id>46817adfdbd43300de42d90d689619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:18:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c4bc89330b70230099b8ea7885673a4a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Response Task V1">c4bc89330b70230099b8ea7885673a4a</action_type>
+        <action_type_parent display_value="Create Response Task V1">939c09330b70230099b8ea7885673afe</action_type_parent>
+        <comment>Should a ransom be paid  ?</comment>
+        <compiled_snapshot>c4bc89330b70230099b8ea7885673a4a</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ransomware playbook_v2">c681fe5fdbd43300de42d90d6896198a</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:18:54</sys_created_on>
+        <sys_id>ce817adfdbd43300de42d90d689619ad</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Secops_FDLibrary" source="x_snc_secops_fdlib">16025ac3db943300de42d90d6896199a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name>sys_hub_action_instance_ce817adfdbd43300de42d90d689619ad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:19:02</sys_updated_on>
+        <ui_id>85de3fed-825f-4ade-bfbc-5f146b571bf3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ce817adfdbd43300de42d90d689619ad"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ce817adfdbd43300de42d90d689619ad</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:18:55</sys_created_on>
+        <sys_id>02817adfdbd43300de42d90d689619c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:18:55</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">9cbc89330b70230099b8ea7885673a5e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ce817adfdbd43300de42d90d689619ad</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:18:55</sys_created_on>
+        <sys_id>4e817adfdbd43300de42d90d689619bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:18:55</sys_updated_on>
+        <value>Should a ransom be paid ?</value>
+        <variable display_value="">58bc89330b70230099b8ea7885673a53</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ce817adfdbd43300de42d90d689619ad"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_parent_task</field>
+        <id>ce817adfdbd43300de42d90d689619ad</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:18:55</sys_created_on>
+        <sys_id>46817adfdbd43300de42d90d689619bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:18:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c4bc89330b70230099b8ea7885673a4a</table>
+        <value>{{subflow.sysid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_short_description</field>
+        <id>ce817adfdbd43300de42d90d689619ad</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:18:55</sys_created_on>
+        <sys_id>ca817adfdbd43300de42d90d689619bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:18:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c4bc89330b70230099b8ea7885673a4a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_wait_for_completion</field>
+        <id>ce817adfdbd43300de42d90d689619ad</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:18:55</sys_created_on>
+        <sys_id>0a817adfdbd43300de42d90d689619bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:18:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c4bc89330b70230099b8ea7885673a4a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=c681fe5fdbd43300de42d90d6896198a^sys_idNOT IN0281fe5fdbd43300de42d90d6896198b"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>c681fe5fdbd43300de42d90d6896198a</id>
+        <name>Ransomware playbook_v2</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:18:54</sys_created_on>
+        <sys_id>0281fe5fdbd43300de42d90d6896198b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ransomware playbook_v2</sys_name>
+        <sys_package display_value="Secops_FDLibrary" source="x_snc_secops_fdlib">16025ac3db943300de42d90d6896199a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name>sys_flow_cat_variable_model_0281fe5fdbd43300de42d90d6896198b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:18:54</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=c681fe5fdbd43300de42d90d6896198a^sys_idNOT IN86817adfdbd43300de42d90d6896198d"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sysid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>sysid</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Ransomware playbook_v2">c681fe5fdbd43300de42d90d6896198a</model>
+        <model_id>c681fe5fdbd43300de42d90d6896198a</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_c681fe5fdbd43300de42d90d6896198a</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:18:54</sys_created_on>
+        <sys_id>86817adfdbd43300de42d90d6896198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Secops_FDLibrary" source="x_snc_secops_fdlib">16025ac3db943300de42d90d6896199a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:18:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=c681fe5fdbd43300de42d90d6896198a^sys_idNOT IN02817adfdbd43300de42d90d68961997,ce817adfdbd43300de42d90d689619ad"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Response Task V1">c4bc89330b70230099b8ea7885673a4a</action_type>
+        <action_type_parent display_value="Create Response Task V1">939c09330b70230099b8ea7885673afe</action_type_parent>
+        <comment>Are backups available for encrypted files?</comment>
+        <compiled_snapshot>c4bc89330b70230099b8ea7885673a4a</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ransomware playbook_v2">c681fe5fdbd43300de42d90d6896198a</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:18:54</sys_created_on>
+        <sys_id>02817adfdbd43300de42d90d68961997</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Secops_FDLibrary" source="x_snc_secops_fdlib">16025ac3db943300de42d90d6896199a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name>sys_hub_action_instance_02817adfdbd43300de42d90d68961997</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:19:02</sys_updated_on>
+        <ui_id>5a735719-8cef-49a6-97d3-05cc0be71ed2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=02817adfdbd43300de42d90d68961997"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>02817adfdbd43300de42d90d68961997</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:18:54</sys_created_on>
+        <sys_id>42817adfdbd43300de42d90d689619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:18:54</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">9cbc89330b70230099b8ea7885673a5e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>02817adfdbd43300de42d90d68961997</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:18:54</sys_created_on>
+        <sys_id>8a817adfdbd43300de42d90d689619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:18:54</sys_updated_on>
+        <value>Are backups available ?</value>
+        <variable display_value="">58bc89330b70230099b8ea7885673a53</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=02817adfdbd43300de42d90d68961997"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_parent_task</field>
+        <id>02817adfdbd43300de42d90d68961997</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:18:54</sys_created_on>
+        <sys_id>82817adfdbd43300de42d90d689619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:18:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c4bc89330b70230099b8ea7885673a4a</table>
+        <value>{{subflow.sysid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_short_description</field>
+        <id>02817adfdbd43300de42d90d68961997</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:18:54</sys_created_on>
+        <sys_id>0a817adfdbd43300de42d90d689619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:18:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c4bc89330b70230099b8ea7885673a4a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_wait_for_completion</field>
+        <id>02817adfdbd43300de42d90d68961997</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:18:54</sys_created_on>
+        <sys_id>46817adfdbd43300de42d90d689619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:18:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c4bc89330b70230099b8ea7885673a4a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Response Task V1">c4bc89330b70230099b8ea7885673a4a</action_type>
+        <action_type_parent display_value="Create Response Task V1">939c09330b70230099b8ea7885673afe</action_type_parent>
+        <comment>Should a ransom be paid  ?</comment>
+        <compiled_snapshot>c4bc89330b70230099b8ea7885673a4a</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ransomware playbook_v2">c681fe5fdbd43300de42d90d6896198a</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:18:54</sys_created_on>
+        <sys_id>ce817adfdbd43300de42d90d689619ad</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Secops_FDLibrary" source="x_snc_secops_fdlib">16025ac3db943300de42d90d6896199a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name>sys_hub_action_instance_ce817adfdbd43300de42d90d689619ad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:19:02</sys_updated_on>
+        <ui_id>85de3fed-825f-4ade-bfbc-5f146b571bf3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ce817adfdbd43300de42d90d689619ad"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ce817adfdbd43300de42d90d689619ad</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:18:55</sys_created_on>
+        <sys_id>02817adfdbd43300de42d90d689619c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:18:55</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">9cbc89330b70230099b8ea7885673a5e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ce817adfdbd43300de42d90d689619ad</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:18:55</sys_created_on>
+        <sys_id>4e817adfdbd43300de42d90d689619bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:18:55</sys_updated_on>
+        <value>Should a ransom be paid ?</value>
+        <variable display_value="">58bc89330b70230099b8ea7885673a53</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ce817adfdbd43300de42d90d689619ad"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_parent_task</field>
+        <id>ce817adfdbd43300de42d90d689619ad</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:18:55</sys_created_on>
+        <sys_id>46817adfdbd43300de42d90d689619bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:18:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c4bc89330b70230099b8ea7885673a4a</table>
+        <value>{{subflow.sysid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_short_description</field>
+        <id>ce817adfdbd43300de42d90d689619ad</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:18:55</sys_created_on>
+        <sys_id>ca817adfdbd43300de42d90d689619bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:18:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c4bc89330b70230099b8ea7885673a4a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_wait_for_completion</field>
+        <id>ce817adfdbd43300de42d90d689619ad</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:18:55</sys_created_on>
+        <sys_id>0a817adfdbd43300de42d90d689619bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:18:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c4bc89330b70230099b8ea7885673a4a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_c681fe5fdbd43300de42d90d6896198a^sys_idNOT IN86817adfdbd43300de42d90d68961992"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sysid</element>
+        <help/>
+        <hint/>
+        <label>sysid</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_c681fe5fdbd43300de42d90d6896198a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:18:54</sys_created_on>
+        <sys_id>86817adfdbd43300de42d90d68961992</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sysid</sys_name>
+        <sys_package display_value="Secops_FDLibrary" source="x_snc_secops_fdlib">16025ac3db943300de42d90d6896199a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_c681fe5fdbd43300de42d90d6896198a_sysid_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:18:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=c681fe5fdbd43300de42d90d6896198a^sys_idNOT INb781fadfdbd43300de42d90d6896193a"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>com.snc.process_flow.engine.ProcessPlan@d63e61</plan>
+        <plan_id display_value="Ransomware playbook_v2">c681fe5fdbd43300de42d90d6896198a</plan_id>
+        <snapshot>e781badfdbd43300de42d90d68961944</snapshot>
+        <sys_class_name>sys_flow_subflow_plan</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:19:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>b781fadfdbd43300de42d90d6896193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c681fe5fdbd43300de42d90d6896198a</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Secops_FDLibrary" source="x_snc_secops_fdlib">16025ac3db943300de42d90d6896199a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name>sys_flow_subflow_plan_b781fadfdbd43300de42d90d6896193a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:19:02</sys_updated_on>
+    </sys_flow_subflow_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Security Operations">48783d9bdb344300346ff2b6ae9619e7</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Contains incident response procedures for a ransomware</description>
+        <internal_name>ransomware_playbook_v2</internal_name>
+        <label_cache>[{"name":"5a735719-8cef-49a6-97d3-05cc0be71ed2.Security Incident Flow Response Task","label":"1➛Security Incident Flow Response Task","reference":"sn_si_task","reference_display":"Security Incident Response Task","type":"document_id","base_type":"document_id"},{"name":"subflow.sysid","label":"Input➛sysid","type":"string","base_type":"string"},{"name":"85de3fed-825f-4ade-bfbc-5f146b571bf3.Security Incident Flow Response Task","label":"2➛Security Incident Flow Response Task","reference":"sn_si_task","reference_display":"Security Incident Response Task","type":"document_id","base_type":"document_id"}]</label_cache>
+        <master>true</master>
+        <name>Ransomware playbook_v2</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Ransomware playbook_v2">c681fe5fdbd43300de42d90d6896198a</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:19:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>e781badfdbd43300de42d90d68961944</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Secops_FDLibrary" source="x_snc_secops_fdlib">16025ac3db943300de42d90d6896199a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:19:01</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=e781badfdbd43300de42d90d68961944"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e781badfdbd43300de42d90d68961944"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=e781badfdbd43300de42d90d68961944^sys_idNOT IN6f81badfdbd43300de42d90d68961967,7381badfdbd43300de42d90d68961971"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Response Task V1">c4bc89330b70230099b8ea7885673a4a</action_type>
+        <action_type_parent display_value="Create Response Task V1">939c09330b70230099b8ea7885673afe</action_type_parent>
+        <comment>Are backups available for encrypted files?</comment>
+        <compiled_snapshot>c4bc89330b70230099b8ea7885673a4a</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ransomware playbook_v2">e781badfdbd43300de42d90d68961944</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:19:01</sys_created_on>
+        <sys_id>6f81badfdbd43300de42d90d68961967</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Secops_FDLibrary" source="x_snc_secops_fdlib">16025ac3db943300de42d90d6896199a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name>sys_hub_action_instance_6f81badfdbd43300de42d90d68961967</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:19:01</sys_updated_on>
+        <ui_id>5a735719-8cef-49a6-97d3-05cc0be71ed2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6f81badfdbd43300de42d90d68961967"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6f81badfdbd43300de42d90d68961967</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:19:01</sys_created_on>
+        <sys_id>2781badfdbd43300de42d90d6896196d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:19:01</sys_updated_on>
+        <value>Are backups available ?</value>
+        <variable display_value="">58bc89330b70230099b8ea7885673a53</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6f81badfdbd43300de42d90d68961967</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:19:01</sys_created_on>
+        <sys_id>e781badfdbd43300de42d90d6896196d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:19:01</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">9cbc89330b70230099b8ea7885673a5e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6f81badfdbd43300de42d90d68961967"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_parent_task</field>
+        <id>6f81badfdbd43300de42d90d68961967</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:19:01</sys_created_on>
+        <sys_id>2f81badfdbd43300de42d90d6896196c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:19:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c4bc89330b70230099b8ea7885673a4a</table>
+        <value>{{subflow.sysid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_short_description</field>
+        <id>6f81badfdbd43300de42d90d68961967</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:19:01</sys_created_on>
+        <sys_id>a381badfdbd43300de42d90d6896196d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:19:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c4bc89330b70230099b8ea7885673a4a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_wait_for_completion</field>
+        <id>6f81badfdbd43300de42d90d68961967</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:19:01</sys_created_on>
+        <sys_id>ef81badfdbd43300de42d90d6896196c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:19:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c4bc89330b70230099b8ea7885673a4a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Response Task V1">c4bc89330b70230099b8ea7885673a4a</action_type>
+        <action_type_parent display_value="Create Response Task V1">939c09330b70230099b8ea7885673afe</action_type_parent>
+        <comment>Should a ransom be paid  ?</comment>
+        <compiled_snapshot>c4bc89330b70230099b8ea7885673a4a</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ransomware playbook_v2">e781badfdbd43300de42d90d68961944</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:19:01</sys_created_on>
+        <sys_id>7381badfdbd43300de42d90d68961971</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Secops_FDLibrary" source="x_snc_secops_fdlib">16025ac3db943300de42d90d6896199a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name>sys_hub_action_instance_7381badfdbd43300de42d90d68961971</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:19:01</sys_updated_on>
+        <ui_id>85de3fed-825f-4ade-bfbc-5f146b571bf3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7381badfdbd43300de42d90d68961971"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7381badfdbd43300de42d90d68961971</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:19:01</sys_created_on>
+        <sys_id>3b81badfdbd43300de42d90d68961976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:19:01</sys_updated_on>
+        <value>Should a ransom be paid ?</value>
+        <variable display_value="">58bc89330b70230099b8ea7885673a53</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7381badfdbd43300de42d90d68961971</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:19:01</sys_created_on>
+        <sys_id>fb81badfdbd43300de42d90d68961976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:19:01</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">9cbc89330b70230099b8ea7885673a5e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7381badfdbd43300de42d90d68961971"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_parent_task</field>
+        <id>7381badfdbd43300de42d90d68961971</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:19:01</sys_created_on>
+        <sys_id>3381badfdbd43300de42d90d68961976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:19:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c4bc89330b70230099b8ea7885673a4a</table>
+        <value>{{subflow.sysid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_short_description</field>
+        <id>7381badfdbd43300de42d90d68961971</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:19:01</sys_created_on>
+        <sys_id>b781badfdbd43300de42d90d68961976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:19:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c4bc89330b70230099b8ea7885673a4a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_wait_for_completion</field>
+        <id>7381badfdbd43300de42d90d68961971</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:19:01</sys_created_on>
+        <sys_id>f381badfdbd43300de42d90d68961976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:19:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c4bc89330b70230099b8ea7885673a4a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=e781badfdbd43300de42d90d68961944^sys_idNOT IN6381badfdbd43300de42d90d68961945"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>e781badfdbd43300de42d90d68961944</id>
+        <name>Ransomware playbook_v2</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:19:01</sys_created_on>
+        <sys_id>6381badfdbd43300de42d90d68961945</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ransomware playbook_v2</sys_name>
+        <sys_package display_value="Secops_FDLibrary" source="x_snc_secops_fdlib">16025ac3db943300de42d90d6896199a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name>sys_flow_cat_variable_model_6381badfdbd43300de42d90d68961945</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:19:01</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=e781badfdbd43300de42d90d68961944^sys_idNOT INaf81badfdbd43300de42d90d68961948"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sysid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>sysid</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Ransomware playbook_v2">e781badfdbd43300de42d90d68961944</model>
+        <model_id>e781badfdbd43300de42d90d68961944</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_e781badfdbd43300de42d90d68961944</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:19:01</sys_created_on>
+        <sys_id>af81badfdbd43300de42d90d68961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Secops_FDLibrary" source="x_snc_secops_fdlib">16025ac3db943300de42d90d6896199a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:19:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=e781badfdbd43300de42d90d68961944^sys_idNOT IN6f81badfdbd43300de42d90d68961967,7381badfdbd43300de42d90d68961971"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Response Task V1">c4bc89330b70230099b8ea7885673a4a</action_type>
+        <action_type_parent display_value="Create Response Task V1">939c09330b70230099b8ea7885673afe</action_type_parent>
+        <comment>Are backups available for encrypted files?</comment>
+        <compiled_snapshot>c4bc89330b70230099b8ea7885673a4a</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ransomware playbook_v2">e781badfdbd43300de42d90d68961944</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:19:01</sys_created_on>
+        <sys_id>6f81badfdbd43300de42d90d68961967</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Secops_FDLibrary" source="x_snc_secops_fdlib">16025ac3db943300de42d90d6896199a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name>sys_hub_action_instance_6f81badfdbd43300de42d90d68961967</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:19:01</sys_updated_on>
+        <ui_id>5a735719-8cef-49a6-97d3-05cc0be71ed2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6f81badfdbd43300de42d90d68961967"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6f81badfdbd43300de42d90d68961967</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:19:01</sys_created_on>
+        <sys_id>2781badfdbd43300de42d90d6896196d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:19:01</sys_updated_on>
+        <value>Are backups available ?</value>
+        <variable display_value="">58bc89330b70230099b8ea7885673a53</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6f81badfdbd43300de42d90d68961967</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:19:01</sys_created_on>
+        <sys_id>e781badfdbd43300de42d90d6896196d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:19:01</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">9cbc89330b70230099b8ea7885673a5e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6f81badfdbd43300de42d90d68961967"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_parent_task</field>
+        <id>6f81badfdbd43300de42d90d68961967</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:19:01</sys_created_on>
+        <sys_id>2f81badfdbd43300de42d90d6896196c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:19:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c4bc89330b70230099b8ea7885673a4a</table>
+        <value>{{subflow.sysid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_short_description</field>
+        <id>6f81badfdbd43300de42d90d68961967</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:19:01</sys_created_on>
+        <sys_id>a381badfdbd43300de42d90d6896196d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:19:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c4bc89330b70230099b8ea7885673a4a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_wait_for_completion</field>
+        <id>6f81badfdbd43300de42d90d68961967</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:19:01</sys_created_on>
+        <sys_id>ef81badfdbd43300de42d90d6896196c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:19:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c4bc89330b70230099b8ea7885673a4a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Response Task V1">c4bc89330b70230099b8ea7885673a4a</action_type>
+        <action_type_parent display_value="Create Response Task V1">939c09330b70230099b8ea7885673afe</action_type_parent>
+        <comment>Should a ransom be paid  ?</comment>
+        <compiled_snapshot>c4bc89330b70230099b8ea7885673a4a</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ransomware playbook_v2">e781badfdbd43300de42d90d68961944</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:19:01</sys_created_on>
+        <sys_id>7381badfdbd43300de42d90d68961971</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Secops_FDLibrary" source="x_snc_secops_fdlib">16025ac3db943300de42d90d6896199a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name>sys_hub_action_instance_7381badfdbd43300de42d90d68961971</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:19:01</sys_updated_on>
+        <ui_id>85de3fed-825f-4ade-bfbc-5f146b571bf3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7381badfdbd43300de42d90d68961971"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7381badfdbd43300de42d90d68961971</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:19:01</sys_created_on>
+        <sys_id>3b81badfdbd43300de42d90d68961976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:19:01</sys_updated_on>
+        <value>Should a ransom be paid ?</value>
+        <variable display_value="">58bc89330b70230099b8ea7885673a53</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7381badfdbd43300de42d90d68961971</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:19:01</sys_created_on>
+        <sys_id>fb81badfdbd43300de42d90d68961976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:19:01</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">9cbc89330b70230099b8ea7885673a5e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7381badfdbd43300de42d90d68961971"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_parent_task</field>
+        <id>7381badfdbd43300de42d90d68961971</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:19:01</sys_created_on>
+        <sys_id>3381badfdbd43300de42d90d68961976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:19:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c4bc89330b70230099b8ea7885673a4a</table>
+        <value>{{subflow.sysid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_short_description</field>
+        <id>7381badfdbd43300de42d90d68961971</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:19:01</sys_created_on>
+        <sys_id>b781badfdbd43300de42d90d68961976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:19:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c4bc89330b70230099b8ea7885673a4a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_wait_for_completion</field>
+        <id>7381badfdbd43300de42d90d68961971</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:19:01</sys_created_on>
+        <sys_id>f381badfdbd43300de42d90d68961976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:19:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c4bc89330b70230099b8ea7885673a4a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_e781badfdbd43300de42d90d68961944^sys_idNOT IN6b81badfdbd43300de42d90d6896194d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sysid</element>
+        <help/>
+        <hint/>
+        <label>sysid</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e781badfdbd43300de42d90d68961944</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:19:01</sys_created_on>
+        <sys_id>6b81badfdbd43300de42d90d6896194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sysid</sys_name>
+        <sys_package display_value="Secops_FDLibrary" source="x_snc_secops_fdlib">16025ac3db943300de42d90d6896199a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_e781badfdbd43300de42d90d68961944_sysid_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:19:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
 </record_update>
