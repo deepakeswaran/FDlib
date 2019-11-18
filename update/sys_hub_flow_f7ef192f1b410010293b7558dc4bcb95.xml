@@ -11,13 +11,13 @@
         <copied_from_name>SIR_Decode and Attach Safelink U</copied_from_name>
         <description>Run This On-Demand Flow to Decode Microsoft ATP Safelink URLs and Associate them to Trigger Security Incident</description>
         <internal_name>fdactlib_decode_and_attach_safelink_url_observables</internal_name>
-        <label_cache>[{"name":"0be4c77c-3e25-4a48-b5da-e9f499fa1c18.observables","label":"1➛observables","reference_display":"observables","type":"string","base_type":"string"},{"name":"0be4c77c-3e25-4a48-b5da-e9f499fa1c18.observablescount","label":"1➛observablesCount","reference_display":"observablesCount","type":"integer","base_type":"integer"},{"name":"Created_1.current.sys_id","label":"Trigger➛Security Incident Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_si_incident","column_name":"sys_id"},{"name":"133fd07f-2159-4d29-a442-40619fcc0448.Records","label":"2➛Observable Records","reference":"sn_ti_observable","reference_display":"Observable","type":"records","base_type":"records"},{"name":"133fd07f-2159-4d29-a442-40619fcc0448.Table","label":"2➛Observable Table","reference":"sn_ti_observable","reference_display":"Observable","type":"table_name","base_type":"table_name"},{"name":"133fd07f-2159-4d29-a442-40619fcc0448.Count","label":"2➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"04b89f32-2b7b-430b-8abc-9cf09f18e323.item","label":"3➛Observable Record","reference":"sn_ti_observable","reference_display":"Observable","type":"reference","base_type":"reference"},{"name":"44b0d4e5-00b0-4aad-a33a-7610e6fdd4d3.variable","label":"3.1➛decode_url","reference_display":"decode_url","type":"string","base_type":"string"},{"name":"04b89f32-2b7b-430b-8abc-9cf09f18e323.item.value","label":"3➛Observable Record➛Value","reference":"","reference_display":"Value","type":"string","base_type":"string","parent_table_name":"sn_ti_observable","column_name":"value"},{"name":"9b3694df-9a2d-4675-8e69-7e62e412737b.processed_observables","label":"3.2➛processed_observables","reference_display":"processed_observables","type":"string","base_type":"string"},{"name":"954e1b8a-130c-45fe-ac4a-672bfc2c8233.Record","label":"3.2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"954e1b8a-130c-45fe-ac4a-672bfc2c8233.Table","label":"3.2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"54ff60c1-2d52-4e48-b353-2cc34cfc9b2d.Records","label":"3.2➛Observable Records","reference":"sn_ti_observable","reference_display":"Observable","type":"records","base_type":"records"},{"name":"54ff60c1-2d52-4e48-b353-2cc34cfc9b2d.Table","label":"3.2➛Observable Table","reference":"sn_ti_observable","reference_display":"Observable","type":"table_name","base_type":"table_name"},{"name":"54ff60c1-2d52-4e48-b353-2cc34cfc9b2d.Count","label":"3.2➛Count","type":"integer","base_type":"integer"},{"name":"faf0bbef-0ba0-4193-b369-f23890114218.record","label":"3.3.1➛Observable Record","reference":"sn_ti_observable","reference_display":"Observable","type":"reference","base_type":"reference"},{"name":"faf0bbef-0ba0-4193-b369-f23890114218.table_name","label":"3.3.1➛Observable Table","reference":"sn_ti_observable","reference_display":"Observable","type":"table_name","base_type":"table_name"},{"name":"799d7cb0-d2d0-4e7d-a37d-14bb223af5bb.record","label":"3.3.2➛Task Observable Record","reference":"sn_ti_m2m_task_observable","reference_display":"Task Observable","type":"reference","base_type":"reference"},{"name":"799d7cb0-d2d0-4e7d-a37d-14bb223af5bb.table_name","label":"3.3.2➛Task Observable Table","reference":"sn_ti_m2m_task_observable","reference_display":"Task Observable","type":"table_name","base_type":"table_name"},{"name":"Created_1.current","label":"Trigger➛Security Incident Record","reference":"sn_si_incident","reference_display":"Security Incident","type":"reference","base_type":"reference"},{"name":"c6ba6c65-03ca-437e-b433-921f0a661ef6.record","label":"3.4.1.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"c6ba6c65-03ca-437e-b433-921f0a661ef6.table_name","label":"3.4.1.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"1b915ea7-9632-4f6d-8340-c4e044a182eb.item","label":"3.4.1➛Observable Record","reference":"sn_ti_observable","reference_display":"Observable","type":"reference","base_type":"reference"}]</label_cache>
-        <latest_snapshot/>
-        <master_snapshot/>
+        <label_cache>[{"name":"1b915ea7-9632-4f6d-8340-c4e044a182eb.item","label":"3.4.1➛Records","reference_display":"Records","type":"document_id","base_type":"document_id","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"c6ba6c65-03ca-437e-b433-921f0a661ef6.table_name","label":"3.4.1.1➛Task Observable Table","reference":"sn_ti_m2m_task_observable","reference_display":"Task Observable","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c6ba6c65-03ca-437e-b433-921f0a661ef6.record","label":"3.4.1.1➛Task Observable Record","reference":"sn_ti_m2m_task_observable","reference_display":"Task Observable","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger➛Security Incident Record","reference":"sn_si_incident","reference_display":"Security Incident","type":"reference","base_type":"reference"},{"name":"799d7cb0-d2d0-4e7d-a37d-14bb223af5bb.table_name","label":"3.3.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"799d7cb0-d2d0-4e7d-a37d-14bb223af5bb.record","label":"3.3.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"faf0bbef-0ba0-4193-b369-f23890114218.table_name","label":"3.3.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"faf0bbef-0ba0-4193-b369-f23890114218.record","label":"3.3.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"54ff60c1-2d52-4e48-b353-2cc34cfc9b2d.Count","label":"3.2➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"54ff60c1-2d52-4e48-b353-2cc34cfc9b2d.Table","label":"3.2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"54ff60c1-2d52-4e48-b353-2cc34cfc9b2d.Records","label":"3.2➛Records","reference_display":"Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"954e1b8a-130c-45fe-ac4a-672bfc2c8233.Table","label":"3.2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"954e1b8a-130c-45fe-ac4a-672bfc2c8233.Record","label":"3.2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"9b3694df-9a2d-4675-8e69-7e62e412737b.processed_observables","label":"3.2➛processed_observables","reference_display":"processed_observables","type":"string","base_type":"string"},{"name":"04b89f32-2b7b-430b-8abc-9cf09f18e323.item.value","label":"3➛Observable Record➛Value","reference":"","reference_display":"Value","type":"string","base_type":"string","parent_table_name":"sn_ti_observable","column_name":"value"},{"name":"44b0d4e5-00b0-4aad-a33a-7610e6fdd4d3.variable","label":"3.1➛decode_url","reference_display":"decode_url","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true"}},{"name":"04b89f32-2b7b-430b-8abc-9cf09f18e323.item","label":"3➛Observable Record","reference":"sn_ti_observable","reference_display":"Observable","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"133fd07f-2159-4d29-a442-40619fcc0448.Count","label":"2➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"133fd07f-2159-4d29-a442-40619fcc0448.Table","label":"2➛Observable Table","reference":"sn_ti_observable","reference_display":"Observable","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"133fd07f-2159-4d29-a442-40619fcc0448.Records","label":"2➛Observable Records","reference":"sn_ti_observable","reference_display":"Observable","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.sys_id","label":"Trigger➛Security Incident Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_si_incident","column_name":"sys_id"},{"name":"0be4c77c-3e25-4a48-b5da-e9f499fa1c18.observablescount","label":"1➛observablescount","reference_display":"observablescount","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0be4c77c-3e25-4a48-b5da-e9f499fa1c18.observables","label":"1➛observables","reference_display":"observables","type":"string","base_type":"string","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot>d4a449081b5d0010293b7558dc4bcb94</latest_snapshot>
+        <master_snapshot>d4a449081b5d0010293b7558dc4bcb94</master_snapshot>
         <name>FDActlib_Decode and Attach Safelink URL Observables</name>
         <natlang/>
         <outputs/>
-        <remote_trigger_id/>
+        <remote_trigger_id>05a4c9081b5d0010293b7558dc4bcb0a</remote_trigger_id>
         <run_as>user</run_as>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
@@ -28,7 +28,7 @@
         <sys_created_on>2019-11-17 07:59:07</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>f7ef192f1b410010293b7558dc4bcb95</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>FDActlib_Decode and Attach Safelink URL Observables</sys_name>
         <sys_overrides/>
         <sys_package display_value="Secops_FDLibrary" source="x_snc_secops_fdlib">16025ac3db943300de42d90d6896199a</sys_package>
@@ -36,12 +36,40 @@
         <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
         <sys_update_name>sys_hub_flow_f7ef192f1b410010293b7558dc4bcb95</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
+        <sys_updated_on>2019-11-18 19:22:50</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=f7ef192f1b410010293b7558dc4bcb95"/>
     <sys_variable_value action="delete_multiple" query="document_key=f7ef192f1b410010293b7558dc4bcb95"/>
-    <sys_hub_flow_component action="delete_multiple" query="flow=f7ef192f1b410010293b7558dc4bcb95^sys_idNOT IN00ff192f1b410010293b7558dc4bcbb1,08ff192f1b410010293b7558dc4bcbb5,3fef192f1b410010293b7558dc4bcbab,3fef192f1b410010293b7558dc4bcbae,40ff192f1b410010293b7558dc4bcbcf,4cff192f1b410010293b7558dc4bcbca,4cff192f1b410010293b7558dc4bcbd6,7fef192f1b410010293b7558dc4bcba7,80ff192f1b410010293b7558dc4bcbd3,80ff192f1b410010293b7558dc4bcbda,84ff192f1b410010293b7558dc4bcbba"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <condition table="sn_si_incident">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>05a4c9081b5d0010293b7558dc4bcb0a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:22:53</sys_updated_on>
+        <table>sn_si_incident</table>
+    </sys_flow_record_trigger>
+    <sys_hub_flow_component action="delete_multiple" query="flow=f7ef192f1b410010293b7558dc4bcb95^sys_idNOT IN00ff192f1b410010293b7558dc4bcbb1,08ff192f1b410010293b7558dc4bcbb5,3fef192f1b410010293b7558dc4bcbab,3fef192f1b410010293b7558dc4bcbae,40ff192f1b410010293b7558dc4bcbcf,4cff192f1b410010293b7558dc4bcbd6,7fef192f1b410010293b7558dc4bcba7,80ff192f1b410010293b7558dc4bcbda,84ff192f1b410010293b7558dc4bcbba,ce35c5481b5d0010293b7558dc4bcba7"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">d41d0e3fdbff33006aac75868c961916</block>
         <comment/>
@@ -61,14 +89,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-17 07:59:08</sys_created_on>
         <sys_id>00ff192f1b410010293b7558dc4bcbb1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
+        <sys_updated_on>2019-11-18 19:20:06</sys_updated_on>
         <ui_id>04b89f32-2b7b-430b-8abc-9cf09f18e323</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -103,14 +131,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-17 07:59:08</sys_created_on>
         <sys_id>08ff192f1b410010293b7558dc4bcbb5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
+        <sys_updated_on>2019-11-18 19:20:06</sys_updated_on>
         <ui_id>0be4c77c-3e25-4a48-b5da-e9f499fa1c18</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=08ff192f1b410010293b7558dc4bcbb5"/>
@@ -172,14 +200,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-17 07:59:08</sys_created_on>
         <sys_id>3fef192f1b410010293b7558dc4bcbab</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
+        <sys_updated_on>2019-11-18 19:20:06</sys_updated_on>
         <ui_id>1b915ea7-9632-4f6d-8340-c4e044a182eb</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -218,21 +246,20 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-17 07:59:08</sys_created_on>
         <sys_id>3fef192f1b410010293b7558dc4bcbae</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
+        <sys_updated_on>2019-11-18 19:20:06</sys_updated_on>
         <ui_id>6d92f633-5cfb-4f49-8139-75a6ef4c9e7d</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
     <sys_variable_value action="delete_multiple" query="document_key=3fef192f1b410010293b7558dc4bcbae"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
         <action_inputs/>
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
@@ -246,14 +273,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-17 07:59:08</sys_created_on>
         <sys_id>40ff192f1b410010293b7558dc4bcbcf</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
+        <sys_updated_on>2019-11-18 19:20:06</sys_updated_on>
         <ui_id>54ff60c1-2d52-4e48-b353-2cc34cfc9b2d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=40ff192f1b410010293b7558dc4bcbcf"/>
@@ -265,10 +292,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-17 07:59:08</sys_created_on>
         <sys_id>40ff192f1b410010293b7558dc4bcbd1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
-        <value>sn_ti_observable</value>
+        <sys_updated_on>2019-11-18 19:19:22</sys_updated_on>
+        <value/>
         <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -285,84 +312,7 @@
         <value>1</value>
         <variable display_value="">4f400a1587003300663ca1bb36cb0b61</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=40ff192f1b410010293b7558dc4bcbcf"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>conditions</field>
-        <id>40ff192f1b410010293b7558dc4bcbcf</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-11-17 07:59:08</sys_created_on>
-        <sys_id>48ff192f1b410010293b7558dc4bcbd0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
-        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
-        <value>value={{44b0d4e5-00b0-4aad-a33a-7610e6fdd4d3.variable}}^type=ec9d47809f81120035c6786f957fcfa7</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>max_results</field>
-        <id>40ff192f1b410010293b7558dc4bcbcf</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-11-17 07:59:08</sys_created_on>
-        <sys_id>84ff192f1b410010293b7558dc4bcbd0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
-        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table</field>
-        <id>40ff192f1b410010293b7558dc4bcbcf</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-11-17 07:59:08</sys_created_on>
-        <sys_id>0cff192f1b410010293b7558dc4bcbd0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
-        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
-        <value/>
-    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Decode ATP URL">2b29427bdbff33006aac75868c9619ca</action_type>
-        <action_type_parent display_value="Decode Safelinks URL">2e08023bdbff33006aac75868c9619c7</action_type_parent>
-        <comment/>
-        <compiled_snapshot>2e08023bdbff33006aac75868c9619c7</compiled_snapshot>
-        <display_text/>
-        <flow display_value="FDActlib_Decode and Attach Safelink URL Observables">f7ef192f1b410010293b7558dc4bcb95</flow>
-        <order>3.1</order>
-        <parent_ui_id>04b89f32-2b7b-430b-8abc-9cf09f18e323</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-11-17 07:59:08</sys_created_on>
-        <sys_id>4cff192f1b410010293b7558dc4bcbca</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
-        <ui_id>44b0d4e5-00b0-4aad-a33a-7610e6fdd4d3</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=4cff192f1b410010293b7558dc4bcbca"/>
-    <sys_element_mapping action="delete_multiple" query="id=4cff192f1b410010293b7558dc4bcbca"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>input_url</field>
-        <id>4cff192f1b410010293b7558dc4bcbca</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-11-17 07:59:08</sys_created_on>
-        <sys_id>00ff192f1b410010293b7558dc4bcbcc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
-        <table>var__m_sys_hub_action_input_2b29427bdbff33006aac75868c9619ca</table>
-        <value>{{04b89f32-2b7b-430b-8abc-9cf09f18e323.item.value}}</value>
-    </sys_element_mapping>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
         <action_inputs/>
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
@@ -370,20 +320,20 @@
         <compiled_snapshot>02f0b88cc3c632002841b63b12d3aeff</compiled_snapshot>
         <display_text/>
         <flow display_value="FDActlib_Decode and Attach Safelink URL Observables">f7ef192f1b410010293b7558dc4bcb95</flow>
-        <order>3.3.2</order>
+        <order>3.3.1</order>
         <parent_ui_id>33f74c0b-b3a9-418c-ad15-71f0e085119f</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-17 07:59:08</sys_created_on>
         <sys_id>4cff192f1b410010293b7558dc4bcbd6</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
+        <sys_updated_on>2019-11-18 19:20:06</sys_updated_on>
         <ui_id>799d7cb0-d2d0-4e7d-a37d-14bb223af5bb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4cff192f1b410010293b7558dc4bcbd6"/>
@@ -395,37 +345,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-17 07:59:08</sys_created_on>
         <sys_id>40ff192f1b410010293b7558dc4bcbd8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
-        <value>sn_ti_m2m_task_observable</value>
+        <sys_updated_on>2019-11-18 19:19:58</sys_updated_on>
+        <value/>
         <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=4cff192f1b410010293b7558dc4bcbd6"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table_name</field>
-        <id>4cff192f1b410010293b7558dc4bcbd6</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-11-17 07:59:08</sys_created_on>
-        <sys_id>0cff192f1b410010293b7558dc4bcbd7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
-        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>values</field>
-        <id>4cff192f1b410010293b7558dc4bcbd6</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-11-17 07:59:08</sys_created_on>
-        <sys_id>ccff192f1b410010293b7558dc4bcbd7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
-        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>task={{Created_1.current}}^observable={{faf0bbef-0ba0-4193-b369-f23890114218.record}}</value>
-    </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">981d0e3fdbff33006aac75868c96190c</block>
         <comment>add it as a new observable</comment>
@@ -445,14 +370,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-17 07:59:07</sys_created_on>
         <sys_id>7fef192f1b410010293b7558dc4bcba7</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:07</sys_updated_on>
+        <sys_updated_on>2019-11-18 19:20:06</sys_updated_on>
         <ui_id>33f74c0b-b3a9-418c-ad15-71f0e085119f</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -491,71 +416,6 @@
         <action_inputs/>
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
-        <comment>Populate the Repository</comment>
-        <compiled_snapshot>02f0b88cc3c632002841b63b12d3aeff</compiled_snapshot>
-        <display_text/>
-        <flow display_value="FDActlib_Decode and Attach Safelink URL Observables">f7ef192f1b410010293b7558dc4bcb95</flow>
-        <order>3.3.1</order>
-        <parent_ui_id>33f74c0b-b3a9-418c-ad15-71f0e085119f</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-11-17 07:59:08</sys_created_on>
-        <sys_id>80ff192f1b410010293b7558dc4bcbd3</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
-        <ui_id>faf0bbef-0ba0-4193-b369-f23890114218</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=80ff192f1b410010293b7558dc4bcbd3"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>80ff192f1b410010293b7558dc4bcbd3</document_key>
-        <order>0</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-11-17 07:59:08</sys_created_on>
-        <sys_id>88ff192f1b410010293b7558dc4bcbd4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
-        <value>sn_ti_observable</value>
-        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=80ff192f1b410010293b7558dc4bcbd3"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table_name</field>
-        <id>80ff192f1b410010293b7558dc4bcbd3</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-11-17 07:59:08</sys_created_on>
-        <sys_id>44ff192f1b410010293b7558dc4bcbd4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
-        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>values</field>
-        <id>80ff192f1b410010293b7558dc4bcbd3</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-11-17 07:59:08</sys_created_on>
-        <sys_id>08ff192f1b410010293b7558dc4bcbd4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
-        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>type={"display":"URL","value":"ec9d47809f81120035c6786f957fcfa7"}^value={{44b0d4e5-00b0-4aad-a33a-7610e6fdd4d3.variable}}</value>
-    </sys_element_mapping>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
-        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
         <comment>Associate to Security Incident</comment>
         <compiled_snapshot>02f0b88cc3c632002841b63b12d3aeff</compiled_snapshot>
         <display_text/>
@@ -566,14 +426,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-17 07:59:08</sys_created_on>
         <sys_id>80ff192f1b410010293b7558dc4bcbda</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
+        <sys_updated_on>2019-11-18 19:20:06</sys_updated_on>
         <ui_id>c6ba6c65-03ca-437e-b433-921f0a661ef6</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=80ff192f1b410010293b7558dc4bcbda"/>
@@ -631,14 +491,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-17 07:59:08</sys_created_on>
         <sys_id>84ff192f1b410010293b7558dc4bcbba</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
+        <sys_updated_on>2019-11-18 19:20:06</sys_updated_on>
         <ui_id>133fd07f-2159-4d29-a442-40619fcc0448</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=84ff192f1b410010293b7558dc4bcbba"/>
@@ -681,6 +541,31 @@
         <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="DecodeURL v1">3ae441481b5d0010293b7558dc4bcb72</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="FDActlib_Decode and Attach Safelink URL Observables">f7ef192f1b410010293b7558dc4bcb95</flow>
+        <order>3.1</order>
+        <parent_ui_id>04b89f32-2b7b-430b-8abc-9cf09f18e323</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:19:22</sys_created_on>
+        <sys_id>ce35c5481b5d0010293b7558dc4bcba7</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:20:06</sys_updated_on>
+        <ui_id>778da4ff-926a-494c-9366-e67e3ac9bcd1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ce35c5481b5d0010293b7558dc4bcba7"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=f7ef192f1b410010293b7558dc4bcb95^sys_idNOT IN88ff192f1b410010293b7558dc4bcbdb"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -692,14 +577,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-17 07:59:08</sys_created_on>
         <sys_id>88ff192f1b410010293b7558dc4bcbdb</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
+        <sys_updated_on>2019-11-18 19:20:06</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -756,7 +641,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -814,14 +699,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-17 07:59:07</sys_created_on>
         <sys_id>f7ef192f1b410010293b7558dc4bcba0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:07</sys_updated_on>
+        <sys_updated_on>2019-11-18 19:19:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -837,7 +722,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -855,7 +740,7 @@
         <defaultsort/>
         <delete_roles/>
         <dependent>table_name</dependent>
-        <dependent_on_field/>
+        <dependent_on_field>table_name</dependent_on_field>
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
@@ -895,18 +780,18 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-17 07:59:07</sys_created_on>
         <sys_id>fbef192f1b410010293b7558dc4bcb9a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:07</sys_updated_on>
+        <sys_updated_on>2019-11-18 19:19:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
+        <use_dependent_field>true</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
@@ -914,7 +799,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_instance action="delete_multiple" query="flow=f7ef192f1b410010293b7558dc4bcb95^sys_idNOT IN08ff192f1b410010293b7558dc4bcbb5,40ff192f1b410010293b7558dc4bcbcf,4cff192f1b410010293b7558dc4bcbca,4cff192f1b410010293b7558dc4bcbd6,80ff192f1b410010293b7558dc4bcbd3,80ff192f1b410010293b7558dc4bcbda,84ff192f1b410010293b7558dc4bcbba"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=f7ef192f1b410010293b7558dc4bcb95^sys_idNOT IN08ff192f1b410010293b7558dc4bcbb5,40ff192f1b410010293b7558dc4bcbcf,4cff192f1b410010293b7558dc4bcbd6,80ff192f1b410010293b7558dc4bcbda,84ff192f1b410010293b7558dc4bcbba,ce35c5481b5d0010293b7558dc4bcba7"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -930,14 +815,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-17 07:59:08</sys_created_on>
         <sys_id>08ff192f1b410010293b7558dc4bcbb5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
+        <sys_updated_on>2019-11-18 19:20:06</sys_updated_on>
         <ui_id>0be4c77c-3e25-4a48-b5da-e9f499fa1c18</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=08ff192f1b410010293b7558dc4bcbb5"/>
@@ -982,7 +867,6 @@
     </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
         <comment/>
@@ -995,14 +879,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-17 07:59:08</sys_created_on>
         <sys_id>40ff192f1b410010293b7558dc4bcbcf</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
+        <sys_updated_on>2019-11-18 19:20:06</sys_updated_on>
         <ui_id>54ff60c1-2d52-4e48-b353-2cc34cfc9b2d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=40ff192f1b410010293b7558dc4bcbcf"/>
@@ -1014,10 +898,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-17 07:59:08</sys_created_on>
         <sys_id>40ff192f1b410010293b7558dc4bcbd1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
-        <value>sn_ti_observable</value>
+        <sys_updated_on>2019-11-18 19:19:22</sys_updated_on>
+        <value/>
         <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1034,84 +918,7 @@
         <value>1</value>
         <variable display_value="">4f400a1587003300663ca1bb36cb0b61</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=40ff192f1b410010293b7558dc4bcbcf"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>conditions</field>
-        <id>40ff192f1b410010293b7558dc4bcbcf</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-11-17 07:59:08</sys_created_on>
-        <sys_id>48ff192f1b410010293b7558dc4bcbd0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
-        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
-        <value>value={{44b0d4e5-00b0-4aad-a33a-7610e6fdd4d3.variable}}^type=ec9d47809f81120035c6786f957fcfa7</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>max_results</field>
-        <id>40ff192f1b410010293b7558dc4bcbcf</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-11-17 07:59:08</sys_created_on>
-        <sys_id>84ff192f1b410010293b7558dc4bcbd0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
-        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table</field>
-        <id>40ff192f1b410010293b7558dc4bcbcf</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-11-17 07:59:08</sys_created_on>
-        <sys_id>0cff192f1b410010293b7558dc4bcbd0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
-        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
-        <value/>
-    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Decode ATP URL">2b29427bdbff33006aac75868c9619ca</action_type>
-        <action_type_parent display_value="Decode Safelinks URL">2e08023bdbff33006aac75868c9619c7</action_type_parent>
-        <comment/>
-        <compiled_snapshot>2e08023bdbff33006aac75868c9619c7</compiled_snapshot>
-        <display_text/>
-        <flow display_value="FDActlib_Decode and Attach Safelink URL Observables">f7ef192f1b410010293b7558dc4bcb95</flow>
-        <order>3.1</order>
-        <parent_ui_id>04b89f32-2b7b-430b-8abc-9cf09f18e323</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-11-17 07:59:08</sys_created_on>
-        <sys_id>4cff192f1b410010293b7558dc4bcbca</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
-        <ui_id>44b0d4e5-00b0-4aad-a33a-7610e6fdd4d3</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=4cff192f1b410010293b7558dc4bcbca"/>
-    <sys_element_mapping action="delete_multiple" query="id=4cff192f1b410010293b7558dc4bcbca"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>input_url</field>
-        <id>4cff192f1b410010293b7558dc4bcbca</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-11-17 07:59:08</sys_created_on>
-        <sys_id>00ff192f1b410010293b7558dc4bcbcc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
-        <table>var__m_sys_hub_action_input_2b29427bdbff33006aac75868c9619ca</table>
-        <value>{{04b89f32-2b7b-430b-8abc-9cf09f18e323.item.value}}</value>
-    </sys_element_mapping>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
         <action_inputs/>
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
@@ -1119,20 +926,20 @@
         <compiled_snapshot>02f0b88cc3c632002841b63b12d3aeff</compiled_snapshot>
         <display_text/>
         <flow display_value="FDActlib_Decode and Attach Safelink URL Observables">f7ef192f1b410010293b7558dc4bcb95</flow>
-        <order>3.3.2</order>
+        <order>3.3.1</order>
         <parent_ui_id>33f74c0b-b3a9-418c-ad15-71f0e085119f</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-17 07:59:08</sys_created_on>
         <sys_id>4cff192f1b410010293b7558dc4bcbd6</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
+        <sys_updated_on>2019-11-18 19:20:06</sys_updated_on>
         <ui_id>799d7cb0-d2d0-4e7d-a37d-14bb223af5bb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4cff192f1b410010293b7558dc4bcbd6"/>
@@ -1144,102 +951,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-17 07:59:08</sys_created_on>
         <sys_id>40ff192f1b410010293b7558dc4bcbd8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
-        <value>sn_ti_m2m_task_observable</value>
+        <sys_updated_on>2019-11-18 19:19:58</sys_updated_on>
+        <value/>
         <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=4cff192f1b410010293b7558dc4bcbd6"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table_name</field>
-        <id>4cff192f1b410010293b7558dc4bcbd6</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-11-17 07:59:08</sys_created_on>
-        <sys_id>0cff192f1b410010293b7558dc4bcbd7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
-        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>values</field>
-        <id>4cff192f1b410010293b7558dc4bcbd6</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-11-17 07:59:08</sys_created_on>
-        <sys_id>ccff192f1b410010293b7558dc4bcbd7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
-        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>task={{Created_1.current}}^observable={{faf0bbef-0ba0-4193-b369-f23890114218.record}}</value>
-    </sys_element_mapping>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
-        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
-        <comment>Populate the Repository</comment>
-        <compiled_snapshot>02f0b88cc3c632002841b63b12d3aeff</compiled_snapshot>
-        <display_text/>
-        <flow display_value="FDActlib_Decode and Attach Safelink URL Observables">f7ef192f1b410010293b7558dc4bcb95</flow>
-        <order>3.3.1</order>
-        <parent_ui_id>33f74c0b-b3a9-418c-ad15-71f0e085119f</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-11-17 07:59:08</sys_created_on>
-        <sys_id>80ff192f1b410010293b7558dc4bcbd3</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
-        <ui_id>faf0bbef-0ba0-4193-b369-f23890114218</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=80ff192f1b410010293b7558dc4bcbd3"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>80ff192f1b410010293b7558dc4bcbd3</document_key>
-        <order>0</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-11-17 07:59:08</sys_created_on>
-        <sys_id>88ff192f1b410010293b7558dc4bcbd4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
-        <value>sn_ti_observable</value>
-        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=80ff192f1b410010293b7558dc4bcbd3"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table_name</field>
-        <id>80ff192f1b410010293b7558dc4bcbd3</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-11-17 07:59:08</sys_created_on>
-        <sys_id>44ff192f1b410010293b7558dc4bcbd4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
-        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>values</field>
-        <id>80ff192f1b410010293b7558dc4bcbd3</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-11-17 07:59:08</sys_created_on>
-        <sys_id>08ff192f1b410010293b7558dc4bcbd4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
-        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>type={"display":"URL","value":"ec9d47809f81120035c6786f957fcfa7"}^value={{44b0d4e5-00b0-4aad-a33a-7610e6fdd4d3.variable}}</value>
-    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1255,14 +972,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-17 07:59:08</sys_created_on>
         <sys_id>80ff192f1b410010293b7558dc4bcbda</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
+        <sys_updated_on>2019-11-18 19:20:06</sys_updated_on>
         <ui_id>c6ba6c65-03ca-437e-b433-921f0a661ef6</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=80ff192f1b410010293b7558dc4bcbda"/>
@@ -1320,14 +1037,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-17 07:59:08</sys_created_on>
         <sys_id>84ff192f1b410010293b7558dc4bcbba</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
+        <sys_updated_on>2019-11-18 19:20:06</sys_updated_on>
         <ui_id>133fd07f-2159-4d29-a442-40619fcc0448</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=84ff192f1b410010293b7558dc4bcbba"/>
@@ -1370,6 +1087,31 @@
         <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="DecodeURL v1">3ae441481b5d0010293b7558dc4bcb72</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="FDActlib_Decode and Attach Safelink URL Observables">f7ef192f1b410010293b7558dc4bcb95</flow>
+        <order>3.1</order>
+        <parent_ui_id>04b89f32-2b7b-430b-8abc-9cf09f18e323</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:19:22</sys_created_on>
+        <sys_id>ce35c5481b5d0010293b7558dc4bcba7</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:20:06</sys_updated_on>
+        <ui_id>778da4ff-926a-494c-9366-e67e3ac9bcd1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ce35c5481b5d0010293b7558dc4bcba7"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=f7ef192f1b410010293b7558dc4bcb95^sys_idNOT IN00ff192f1b410010293b7558dc4bcbb1,3fef192f1b410010293b7558dc4bcbab,3fef192f1b410010293b7558dc4bcbae,7fef192f1b410010293b7558dc4bcba7"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">d41d0e3fdbff33006aac75868c961916</block>
@@ -1390,14 +1132,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-17 07:59:08</sys_created_on>
         <sys_id>00ff192f1b410010293b7558dc4bcbb1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
+        <sys_updated_on>2019-11-18 19:20:06</sys_updated_on>
         <ui_id>04b89f32-2b7b-430b-8abc-9cf09f18e323</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1436,14 +1178,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-17 07:59:08</sys_created_on>
         <sys_id>3fef192f1b410010293b7558dc4bcbab</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
+        <sys_updated_on>2019-11-18 19:20:06</sys_updated_on>
         <ui_id>1b915ea7-9632-4f6d-8340-c4e044a182eb</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1482,14 +1224,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-17 07:59:08</sys_created_on>
         <sys_id>3fef192f1b410010293b7558dc4bcbae</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:08</sys_updated_on>
+        <sys_updated_on>2019-11-18 19:20:06</sys_updated_on>
         <ui_id>6d92f633-5cfb-4f49-8139-75a6ef4c9e7d</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1514,14 +1256,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-17 07:59:07</sys_created_on>
         <sys_id>7fef192f1b410010293b7558dc4bcba7</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 07:59:07</sys_updated_on>
+        <sys_updated_on>2019-11-18 19:20:06</sys_updated_on>
         <ui_id>33f74c0b-b3a9-418c-ad15-71f0e085119f</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1599,6 +1341,1628 @@
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-11-17 07:59:07</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=f7ef192f1b410010293b7558dc4bcb95^sys_idNOT IN01a4c9081b5d0010293b7558dc4bcb0b"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan/>
+        <plan_id>f7ef192f1b410010293b7558dc4bcb95</plan_id>
+        <snapshot>d4a449081b5d0010293b7558dc4bcb94</snapshot>
+        <sys_class_name>sys_flow_trigger_plan</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>01a4c9081b5d0010293b7558dc4bcb0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:50</sys_updated_on>
+        <trigger display_value="">05a4c9081b5d0010293b7558dc4bcb0a</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Run This On-Demand Flow to Decode Microsoft ATP Safelink URLs and Associate them to Trigger Security Incident</description>
+        <internal_name>fdactlib_decode_and_attach_safelink_url_observables</internal_name>
+        <label_cache>[{"name":"1b915ea7-9632-4f6d-8340-c4e044a182eb.item","label":"3.4.1➛Observable Record","reference":"sn_ti_observable","reference_display":"Observable","type":"reference","base_type":"reference"},{"name":"c6ba6c65-03ca-437e-b433-921f0a661ef6.table_name","label":"3.4.1.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"c6ba6c65-03ca-437e-b433-921f0a661ef6.record","label":"3.4.1.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"Created_1.current","label":"Trigger➛Security Incident Record","reference":"sn_si_incident","reference_display":"Security Incident","type":"reference","base_type":"reference"},{"name":"799d7cb0-d2d0-4e7d-a37d-14bb223af5bb.table_name","label":"3.3.2➛Task Observable Table","reference":"sn_ti_m2m_task_observable","reference_display":"Task Observable","type":"table_name","base_type":"table_name"},{"name":"799d7cb0-d2d0-4e7d-a37d-14bb223af5bb.record","label":"3.3.2➛Task Observable Record","reference":"sn_ti_m2m_task_observable","reference_display":"Task Observable","type":"reference","base_type":"reference"},{"name":"faf0bbef-0ba0-4193-b369-f23890114218.table_name","label":"3.3.1➛Observable Table","reference":"sn_ti_observable","reference_display":"Observable","type":"table_name","base_type":"table_name"},{"name":"faf0bbef-0ba0-4193-b369-f23890114218.record","label":"3.3.1➛Observable Record","reference":"sn_ti_observable","reference_display":"Observable","type":"reference","base_type":"reference"},{"name":"54ff60c1-2d52-4e48-b353-2cc34cfc9b2d.Count","label":"3.2➛Count","type":"integer","base_type":"integer"},{"name":"54ff60c1-2d52-4e48-b353-2cc34cfc9b2d.Table","label":"3.2➛Observable Table","reference":"sn_ti_observable","reference_display":"Observable","type":"table_name","base_type":"table_name"},{"name":"54ff60c1-2d52-4e48-b353-2cc34cfc9b2d.Records","label":"3.2➛Observable Records","reference":"sn_ti_observable","reference_display":"Observable","type":"records","base_type":"records"},{"name":"954e1b8a-130c-45fe-ac4a-672bfc2c8233.Table","label":"3.2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"954e1b8a-130c-45fe-ac4a-672bfc2c8233.Record","label":"3.2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"9b3694df-9a2d-4675-8e69-7e62e412737b.processed_observables","label":"3.2➛processed_observables","reference_display":"processed_observables","type":"string","base_type":"string"},{"name":"04b89f32-2b7b-430b-8abc-9cf09f18e323.item.value","label":"3➛Observable Record➛Value","reference":"","reference_display":"Value","type":"string","base_type":"string","parent_table_name":"sn_ti_observable","column_name":"value"},{"name":"44b0d4e5-00b0-4aad-a33a-7610e6fdd4d3.variable","label":"3.1➛decode_url","reference_display":"decode_url","type":"string","base_type":"string"},{"name":"04b89f32-2b7b-430b-8abc-9cf09f18e323.item","label":"3➛Observable Record","reference":"sn_ti_observable","reference_display":"Observable","type":"reference","base_type":"reference"},{"name":"133fd07f-2159-4d29-a442-40619fcc0448.Count","label":"2➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"133fd07f-2159-4d29-a442-40619fcc0448.Table","label":"2➛Observable Table","reference":"sn_ti_observable","reference_display":"Observable","type":"table_name","base_type":"table_name"},{"name":"133fd07f-2159-4d29-a442-40619fcc0448.Records","label":"2➛Observable Records","reference":"sn_ti_observable","reference_display":"Observable","type":"records","base_type":"records"},{"name":"Created_1.current.sys_id","label":"Trigger➛Security Incident Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_si_incident","column_name":"sys_id"},{"name":"0be4c77c-3e25-4a48-b5da-e9f499fa1c18.observablescount","label":"1➛observablesCount","reference_display":"observablesCount","type":"integer","base_type":"integer"},{"name":"0be4c77c-3e25-4a48-b5da-e9f499fa1c18.observables","label":"1➛observables","reference_display":"observables","type":"string","base_type":"string"}]</label_cache>
+        <master>true</master>
+        <name>FDActlib_Decode and Attach Safelink URL Observables</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="FDActlib_Decode and Attach Safelink URL Observables">f7ef192f1b410010293b7558dc4bcb95</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>d4a449081b5d0010293b7558dc4bcb94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:47</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=d4a449081b5d0010293b7558dc4bcb94"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d4a449081b5d0010293b7558dc4bcb94"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=d4a449081b5d0010293b7558dc4bcb94^sys_idNOT IN28a489081b5d0010293b7558dc4bcb7f,2ca489081b5d0010293b7558dc4bcb74,30a489081b5d0010293b7558dc4bcb90,3ca489081b5d0010293b7558dc4bcbb5,64a489081b5d0010293b7558dc4bcb79,a4a489081b5d0010293b7558dc4bcb8b,aca489081b5d0010293b7558dc4bcb7c,b0a489081b5d0010293b7558dc4bcbad,eca489081b5d0010293b7558dc4bcb84,fca489081b5d0010293b7558dc4bcbb1,fca489081b5d0010293b7558dc4bcbd1"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">d41d0e3fdbff33006aac75868c961916</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="FDActlib_Decode and Attach Safelink URL Observables">d4a449081b5d0010293b7558dc4bcb94</flow>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:48</sys_created_on>
+        <sys_id>28a489081b5d0010293b7558dc4bcb7f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:48</sys_updated_on>
+        <ui_id>04b89f32-2b7b-430b-8abc-9cf09f18e323</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=28a489081b5d0010293b7558dc4bcb7f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>28a489081b5d0010293b7558dc4bcb7f</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:48</sys_created_on>
+        <sys_id>e4a489081b5d0010293b7558dc4bcb81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:48</sys_updated_on>
+        <value>{{133fd07f-2159-4d29-a442-40619fcc0448.Records}}</value>
+        <variable display_value="">19df9109c32632002841b63b12d3aed6</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">981d0e3fdbff33006aac75868c96190c</block>
+        <comment>add it as a new observable</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="FDActlib_Decode and Attach Safelink URL Observables">d4a449081b5d0010293b7558dc4bcb94</flow>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3.3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>04b89f32-2b7b-430b-8abc-9cf09f18e323</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:48</sys_created_on>
+        <sys_id>2ca489081b5d0010293b7558dc4bcb74</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:48</sys_updated_on>
+        <ui_id>33f74c0b-b3a9-418c-ad15-71f0e085119f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=2ca489081b5d0010293b7558dc4bcb74"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>2ca489081b5d0010293b7558dc4bcb74</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:48</sys_created_on>
+        <sys_id>6ca489081b5d0010293b7558dc4bcb77</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:48</sys_updated_on>
+        <value>{{54ff60c1-2d52-4e48-b353-2cc34cfc9b2d.Count}}=0</value>
+        <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>2ca489081b5d0010293b7558dc4bcb74</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:48</sys_created_on>
+        <sys_id>a4a489081b5d0010293b7558dc4bcb78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:48</sys_updated_on>
+        <value>Decoded URL doesn't exist in the repository</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Decode ATP URL">2b29427bdbff33006aac75868c9619ca</action_type>
+        <action_type_parent display_value="Decode Safelinks URL">2e08023bdbff33006aac75868c9619c7</action_type_parent>
+        <comment/>
+        <compiled_snapshot>2e08023bdbff33006aac75868c9619c7</compiled_snapshot>
+        <display_text/>
+        <flow display_value="FDActlib_Decode and Attach Safelink URL Observables">d4a449081b5d0010293b7558dc4bcb94</flow>
+        <order>3.1</order>
+        <parent_ui_id>04b89f32-2b7b-430b-8abc-9cf09f18e323</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>30a489081b5d0010293b7558dc4bcb90</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <ui_id>44b0d4e5-00b0-4aad-a33a-7610e6fdd4d3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=30a489081b5d0010293b7558dc4bcb90"/>
+    <sys_element_mapping action="delete_multiple" query="id=30a489081b5d0010293b7558dc4bcb90"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>input_url</field>
+        <id>30a489081b5d0010293b7558dc4bcb90</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>70a489081b5d0010293b7558dc4bcbaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b29427bdbff33006aac75868c9619ca</table>
+        <value>{{04b89f32-2b7b-430b-8abc-9cf09f18e323.item.value}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment>Associate to Security Incident</comment>
+        <compiled_snapshot>02f0b88cc3c632002841b63b12d3aeff</compiled_snapshot>
+        <display_text/>
+        <flow display_value="FDActlib_Decode and Attach Safelink URL Observables">d4a449081b5d0010293b7558dc4bcb94</flow>
+        <order>3.3.2</order>
+        <parent_ui_id>33f74c0b-b3a9-418c-ad15-71f0e085119f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>3ca489081b5d0010293b7558dc4bcbb5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <ui_id>799d7cb0-d2d0-4e7d-a37d-14bb223af5bb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3ca489081b5d0010293b7558dc4bcbb5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3ca489081b5d0010293b7558dc4bcbb5</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>bca489081b5d0010293b7558dc4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <value>sn_ti_m2m_task_observable</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3ca489081b5d0010293b7558dc4bcbb5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>3ca489081b5d0010293b7558dc4bcbb5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>78a489081b5d0010293b7558dc4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>3ca489081b5d0010293b7558dc4bcbb5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>3ca489081b5d0010293b7558dc4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>task={{Created_1.current}}^observable={{faf0bbef-0ba0-4193-b369-f23890114218.record}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">501d0e3fdbff33006aac75868c961913</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="FDActlib_Decode and Attach Safelink URL Observables">d4a449081b5d0010293b7558dc4bcb94</flow>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3.4.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>6d92f633-5cfb-4f49-8139-75a6ef4c9e7d</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:48</sys_created_on>
+        <sys_id>64a489081b5d0010293b7558dc4bcb79</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:48</sys_updated_on>
+        <ui_id>1b915ea7-9632-4f6d-8340-c4e044a182eb</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=64a489081b5d0010293b7558dc4bcb79"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>64a489081b5d0010293b7558dc4bcb79</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:48</sys_created_on>
+        <sys_id>eca489081b5d0010293b7558dc4bcb7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:48</sys_updated_on>
+        <value>{{54ff60c1-2d52-4e48-b353-2cc34cfc9b2d.Records}}</value>
+        <variable display_value="">19df9109c32632002841b63b12d3aed6</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <compiled_snapshot>d1c56ec50b30030085c083eb37673a50</compiled_snapshot>
+        <display_text/>
+        <flow display_value="FDActlib_Decode and Attach Safelink URL Observables">d4a449081b5d0010293b7558dc4bcb94</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>a4a489081b5d0010293b7558dc4bcb8b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <ui_id>133fd07f-2159-4d29-a442-40619fcc0448</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a4a489081b5d0010293b7558dc4bcb8b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a4a489081b5d0010293b7558dc4bcb8b</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>a4a489081b5d0010293b7558dc4bcb8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <value>sn_ti_observable</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a4a489081b5d0010293b7558dc4bcb8b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>a4a489081b5d0010293b7558dc4bcb8b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>60a489081b5d0010293b7558dc4bcb8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>sys_idIN{{0be4c77c-3e25-4a48-b5da-e9f499fa1c18.observables}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>a4a489081b5d0010293b7558dc4bcb8b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>24a489081b5d0010293b7558dc4bcb8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">901d0e3fdbff33006aac75868c961915</block>
+        <comment>It is an Existing Observable in the Environment</comment>
+        <connected_to>33f74c0b-b3a9-418c-ad15-71f0e085119f</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="FDActlib_Decode and Attach Safelink URL Observables">d4a449081b5d0010293b7558dc4bcb94</flow>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>3.4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>04b89f32-2b7b-430b-8abc-9cf09f18e323</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:48</sys_created_on>
+        <sys_id>aca489081b5d0010293b7558dc4bcb7c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:48</sys_updated_on>
+        <ui_id>6d92f633-5cfb-4f49-8139-75a6ef4c9e7d</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=aca489081b5d0010293b7558dc4bcb7c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <compiled_snapshot>d1c56ec50b30030085c083eb37673a50</compiled_snapshot>
+        <display_text/>
+        <flow display_value="FDActlib_Decode and Attach Safelink URL Observables">d4a449081b5d0010293b7558dc4bcb94</flow>
+        <order>3.2</order>
+        <parent_ui_id>04b89f32-2b7b-430b-8abc-9cf09f18e323</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>b0a489081b5d0010293b7558dc4bcbad</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <ui_id>54ff60c1-2d52-4e48-b353-2cc34cfc9b2d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b0a489081b5d0010293b7558dc4bcbad"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b0a489081b5d0010293b7558dc4bcbad</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>b0a489081b5d0010293b7558dc4bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <value>sn_ti_observable</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b0a489081b5d0010293b7558dc4bcbad</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>fca489081b5d0010293b7558dc4bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">4f400a1587003300663ca1bb36cb0b61</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b0a489081b5d0010293b7558dc4bcbad"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>b0a489081b5d0010293b7558dc4bcbad</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>b8a489081b5d0010293b7558dc4bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>value={{44b0d4e5-00b0-4aad-a33a-7610e6fdd4d3.variable}}^type=ec9d47809f81120035c6786f957fcfa7</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>max_results</field>
+        <id>b0a489081b5d0010293b7558dc4bcbad</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>f4a489081b5d0010293b7558dc4bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>b0a489081b5d0010293b7558dc4bcbad</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>7ca489081b5d0010293b7558dc4bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Observables from Task V1">db64adb1b3b02300ed7fc9c316a8dce7</action_type>
+        <action_type_parent display_value="Get Observables from Task V1">6d62306db3b02300ed7fc9c316a8dc17</action_type_parent>
+        <comment/>
+        <compiled_snapshot>6d62306db3b02300ed7fc9c316a8dc17</compiled_snapshot>
+        <display_text/>
+        <flow display_value="FDActlib_Decode and Attach Safelink URL Observables">d4a449081b5d0010293b7558dc4bcb94</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:48</sys_created_on>
+        <sys_id>eca489081b5d0010293b7558dc4bcb84</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:48</sys_updated_on>
+        <ui_id>0be4c77c-3e25-4a48-b5da-e9f499fa1c18</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=eca489081b5d0010293b7558dc4bcb84"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>eca489081b5d0010293b7558dc4bcb84</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:48</sys_created_on>
+        <sys_id>64a489081b5d0010293b7558dc4bcb87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:48</sys_updated_on>
+        <value>ec9d47809f81120035c6786f957fcfa7</value>
+        <variable display_value="">d364adb1b3b02300ed7fc9c316a8dcf7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=eca489081b5d0010293b7558dc4bcb84"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>observable_type</field>
+        <id>eca489081b5d0010293b7558dc4bcb84</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:48</sys_created_on>
+        <sys_id>a8a489081b5d0010293b7558dc4bcb86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_db64adb1b3b02300ed7fc9c316a8dce7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tasksysid</field>
+        <id>eca489081b5d0010293b7558dc4bcb84</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:48</sys_created_on>
+        <sys_id>e0a489081b5d0010293b7558dc4bcb87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_db64adb1b3b02300ed7fc9c316a8dce7</table>
+        <value>{{Created_1.current.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment>Populate the Repository</comment>
+        <compiled_snapshot>02f0b88cc3c632002841b63b12d3aeff</compiled_snapshot>
+        <display_text/>
+        <flow display_value="FDActlib_Decode and Attach Safelink URL Observables">d4a449081b5d0010293b7558dc4bcb94</flow>
+        <order>3.3.1</order>
+        <parent_ui_id>33f74c0b-b3a9-418c-ad15-71f0e085119f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>fca489081b5d0010293b7558dc4bcbb1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <ui_id>faf0bbef-0ba0-4193-b369-f23890114218</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fca489081b5d0010293b7558dc4bcbb1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fca489081b5d0010293b7558dc4bcbb1</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>78a489081b5d0010293b7558dc4bcbb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <value>sn_ti_observable</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=fca489081b5d0010293b7558dc4bcbb1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>fca489081b5d0010293b7558dc4bcbb1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>34a489081b5d0010293b7558dc4bcbb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>fca489081b5d0010293b7558dc4bcbb1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>f4a489081b5d0010293b7558dc4bcbb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>type={"display":"URL","value":"ec9d47809f81120035c6786f957fcfa7"}^value={{44b0d4e5-00b0-4aad-a33a-7610e6fdd4d3.variable}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment>Associate to Security Incident</comment>
+        <compiled_snapshot>02f0b88cc3c632002841b63b12d3aeff</compiled_snapshot>
+        <display_text/>
+        <flow display_value="FDActlib_Decode and Attach Safelink URL Observables">d4a449081b5d0010293b7558dc4bcb94</flow>
+        <order>3.4.1.1</order>
+        <parent_ui_id>1b915ea7-9632-4f6d-8340-c4e044a182eb</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>fca489081b5d0010293b7558dc4bcbd1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <ui_id>c6ba6c65-03ca-437e-b433-921f0a661ef6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fca489081b5d0010293b7558dc4bcbd1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fca489081b5d0010293b7558dc4bcbd1</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>f0a489081b5d0010293b7558dc4bcbd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <value>sn_ti_m2m_task_observable</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=fca489081b5d0010293b7558dc4bcbd1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>fca489081b5d0010293b7558dc4bcbd1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>bca489081b5d0010293b7558dc4bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>fca489081b5d0010293b7558dc4bcbd1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>70a489081b5d0010293b7558dc4bcbd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>task={{Created_1.current}}^observable={{1b915ea7-9632-4f6d-8340-c4e044a182eb.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=d4a449081b5d0010293b7558dc4bcb94^sys_idNOT INf4a489081b5d0010293b7558dc4bcbd3"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="FDActlib_Decode and Attach Safelink URL Observables">d4a449081b5d0010293b7558dc4bcb94</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>f4a489081b5d0010293b7558dc4bcbd3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:50</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f4a489081b5d0010293b7558dc4bcbd3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>f4a489081b5d0010293b7558dc4bcbd3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>30a489081b5d0010293b7558dc4bcbd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>f4a489081b5d0010293b7558dc4bcbd3</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>f0a489081b5d0010293b7558dc4bcbd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <value>sn_si_incident</value>
+        <variable display_value="">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=d4a449081b5d0010293b7558dc4bcb94^sys_idNOT IN98a449081b5d0010293b7558dc4bcb95"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>d4a449081b5d0010293b7558dc4bcb94</id>
+        <name>FDActlib_Decode and Attach Safelink URL Observables</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:47</sys_created_on>
+        <sys_id>98a449081b5d0010293b7558dc4bcb95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:47</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=d4a449081b5d0010293b7558dc4bcb94^sys_idNOT INd0a449081b5d0010293b7558dc4bcb97,eca489081b5d0010293b7558dc4bcb5b"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="FDActlib_Decode and Attach Safelink URL Observables">d4a449081b5d0010293b7558dc4bcb94</model>
+        <model_id>d4a449081b5d0010293b7558dc4bcb94</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_d4a449081b5d0010293b7558dc4bcb94</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:47</sys_created_on>
+        <sys_id>d0a449081b5d0010293b7558dc4bcb97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="FDActlib_Decode and Attach Safelink URL Observables">d4a449081b5d0010293b7558dc4bcb94</model>
+        <model_id>d4a449081b5d0010293b7558dc4bcb94</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_d4a449081b5d0010293b7558dc4bcb94</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:48</sys_created_on>
+        <sys_id>eca489081b5d0010293b7558dc4bcb5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=d4a449081b5d0010293b7558dc4bcb94^sys_idNOT IN30a489081b5d0010293b7558dc4bcb90,3ca489081b5d0010293b7558dc4bcbb5,a4a489081b5d0010293b7558dc4bcb8b,b0a489081b5d0010293b7558dc4bcbad,eca489081b5d0010293b7558dc4bcb84,fca489081b5d0010293b7558dc4bcbb1,fca489081b5d0010293b7558dc4bcbd1"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Decode ATP URL">2b29427bdbff33006aac75868c9619ca</action_type>
+        <action_type_parent display_value="Decode Safelinks URL">2e08023bdbff33006aac75868c9619c7</action_type_parent>
+        <comment/>
+        <compiled_snapshot>2e08023bdbff33006aac75868c9619c7</compiled_snapshot>
+        <display_text/>
+        <flow display_value="FDActlib_Decode and Attach Safelink URL Observables">d4a449081b5d0010293b7558dc4bcb94</flow>
+        <order>3.1</order>
+        <parent_ui_id>04b89f32-2b7b-430b-8abc-9cf09f18e323</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>30a489081b5d0010293b7558dc4bcb90</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <ui_id>44b0d4e5-00b0-4aad-a33a-7610e6fdd4d3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=30a489081b5d0010293b7558dc4bcb90"/>
+    <sys_element_mapping action="delete_multiple" query="id=30a489081b5d0010293b7558dc4bcb90"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>input_url</field>
+        <id>30a489081b5d0010293b7558dc4bcb90</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>70a489081b5d0010293b7558dc4bcbaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b29427bdbff33006aac75868c9619ca</table>
+        <value>{{04b89f32-2b7b-430b-8abc-9cf09f18e323.item.value}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment>Associate to Security Incident</comment>
+        <compiled_snapshot>02f0b88cc3c632002841b63b12d3aeff</compiled_snapshot>
+        <display_text/>
+        <flow display_value="FDActlib_Decode and Attach Safelink URL Observables">d4a449081b5d0010293b7558dc4bcb94</flow>
+        <order>3.3.2</order>
+        <parent_ui_id>33f74c0b-b3a9-418c-ad15-71f0e085119f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>3ca489081b5d0010293b7558dc4bcbb5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <ui_id>799d7cb0-d2d0-4e7d-a37d-14bb223af5bb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3ca489081b5d0010293b7558dc4bcbb5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3ca489081b5d0010293b7558dc4bcbb5</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>bca489081b5d0010293b7558dc4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <value>sn_ti_m2m_task_observable</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3ca489081b5d0010293b7558dc4bcbb5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>3ca489081b5d0010293b7558dc4bcbb5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>78a489081b5d0010293b7558dc4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>3ca489081b5d0010293b7558dc4bcbb5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>3ca489081b5d0010293b7558dc4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>task={{Created_1.current}}^observable={{faf0bbef-0ba0-4193-b369-f23890114218.record}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <compiled_snapshot>d1c56ec50b30030085c083eb37673a50</compiled_snapshot>
+        <display_text/>
+        <flow display_value="FDActlib_Decode and Attach Safelink URL Observables">d4a449081b5d0010293b7558dc4bcb94</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>a4a489081b5d0010293b7558dc4bcb8b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <ui_id>133fd07f-2159-4d29-a442-40619fcc0448</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a4a489081b5d0010293b7558dc4bcb8b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a4a489081b5d0010293b7558dc4bcb8b</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>a4a489081b5d0010293b7558dc4bcb8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <value>sn_ti_observable</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a4a489081b5d0010293b7558dc4bcb8b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>a4a489081b5d0010293b7558dc4bcb8b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>60a489081b5d0010293b7558dc4bcb8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>sys_idIN{{0be4c77c-3e25-4a48-b5da-e9f499fa1c18.observables}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>a4a489081b5d0010293b7558dc4bcb8b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>24a489081b5d0010293b7558dc4bcb8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <compiled_snapshot>d1c56ec50b30030085c083eb37673a50</compiled_snapshot>
+        <display_text/>
+        <flow display_value="FDActlib_Decode and Attach Safelink URL Observables">d4a449081b5d0010293b7558dc4bcb94</flow>
+        <order>3.2</order>
+        <parent_ui_id>04b89f32-2b7b-430b-8abc-9cf09f18e323</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>b0a489081b5d0010293b7558dc4bcbad</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <ui_id>54ff60c1-2d52-4e48-b353-2cc34cfc9b2d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b0a489081b5d0010293b7558dc4bcbad"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b0a489081b5d0010293b7558dc4bcbad</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>b0a489081b5d0010293b7558dc4bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <value>sn_ti_observable</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b0a489081b5d0010293b7558dc4bcbad</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>fca489081b5d0010293b7558dc4bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">4f400a1587003300663ca1bb36cb0b61</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b0a489081b5d0010293b7558dc4bcbad"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>b0a489081b5d0010293b7558dc4bcbad</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>b8a489081b5d0010293b7558dc4bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>value={{44b0d4e5-00b0-4aad-a33a-7610e6fdd4d3.variable}}^type=ec9d47809f81120035c6786f957fcfa7</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>max_results</field>
+        <id>b0a489081b5d0010293b7558dc4bcbad</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>f4a489081b5d0010293b7558dc4bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>b0a489081b5d0010293b7558dc4bcbad</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>7ca489081b5d0010293b7558dc4bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Observables from Task V1">db64adb1b3b02300ed7fc9c316a8dce7</action_type>
+        <action_type_parent display_value="Get Observables from Task V1">6d62306db3b02300ed7fc9c316a8dc17</action_type_parent>
+        <comment/>
+        <compiled_snapshot>6d62306db3b02300ed7fc9c316a8dc17</compiled_snapshot>
+        <display_text/>
+        <flow display_value="FDActlib_Decode and Attach Safelink URL Observables">d4a449081b5d0010293b7558dc4bcb94</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:48</sys_created_on>
+        <sys_id>eca489081b5d0010293b7558dc4bcb84</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:48</sys_updated_on>
+        <ui_id>0be4c77c-3e25-4a48-b5da-e9f499fa1c18</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=eca489081b5d0010293b7558dc4bcb84"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>eca489081b5d0010293b7558dc4bcb84</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:48</sys_created_on>
+        <sys_id>64a489081b5d0010293b7558dc4bcb87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:48</sys_updated_on>
+        <value>ec9d47809f81120035c6786f957fcfa7</value>
+        <variable display_value="">d364adb1b3b02300ed7fc9c316a8dcf7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=eca489081b5d0010293b7558dc4bcb84"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>observable_type</field>
+        <id>eca489081b5d0010293b7558dc4bcb84</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:48</sys_created_on>
+        <sys_id>a8a489081b5d0010293b7558dc4bcb86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_db64adb1b3b02300ed7fc9c316a8dce7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tasksysid</field>
+        <id>eca489081b5d0010293b7558dc4bcb84</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:48</sys_created_on>
+        <sys_id>e0a489081b5d0010293b7558dc4bcb87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_db64adb1b3b02300ed7fc9c316a8dce7</table>
+        <value>{{Created_1.current.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment>Populate the Repository</comment>
+        <compiled_snapshot>02f0b88cc3c632002841b63b12d3aeff</compiled_snapshot>
+        <display_text/>
+        <flow display_value="FDActlib_Decode and Attach Safelink URL Observables">d4a449081b5d0010293b7558dc4bcb94</flow>
+        <order>3.3.1</order>
+        <parent_ui_id>33f74c0b-b3a9-418c-ad15-71f0e085119f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>fca489081b5d0010293b7558dc4bcbb1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <ui_id>faf0bbef-0ba0-4193-b369-f23890114218</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fca489081b5d0010293b7558dc4bcbb1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fca489081b5d0010293b7558dc4bcbb1</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>78a489081b5d0010293b7558dc4bcbb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <value>sn_ti_observable</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=fca489081b5d0010293b7558dc4bcbb1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>fca489081b5d0010293b7558dc4bcbb1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>34a489081b5d0010293b7558dc4bcbb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>fca489081b5d0010293b7558dc4bcbb1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>f4a489081b5d0010293b7558dc4bcbb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>type={"display":"URL","value":"ec9d47809f81120035c6786f957fcfa7"}^value={{44b0d4e5-00b0-4aad-a33a-7610e6fdd4d3.variable}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment>Associate to Security Incident</comment>
+        <compiled_snapshot>02f0b88cc3c632002841b63b12d3aeff</compiled_snapshot>
+        <display_text/>
+        <flow display_value="FDActlib_Decode and Attach Safelink URL Observables">d4a449081b5d0010293b7558dc4bcb94</flow>
+        <order>3.4.1.1</order>
+        <parent_ui_id>1b915ea7-9632-4f6d-8340-c4e044a182eb</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>fca489081b5d0010293b7558dc4bcbd1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <ui_id>c6ba6c65-03ca-437e-b433-921f0a661ef6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fca489081b5d0010293b7558dc4bcbd1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fca489081b5d0010293b7558dc4bcbd1</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>f0a489081b5d0010293b7558dc4bcbd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <value>sn_ti_m2m_task_observable</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=fca489081b5d0010293b7558dc4bcbd1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>fca489081b5d0010293b7558dc4bcbd1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>bca489081b5d0010293b7558dc4bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>fca489081b5d0010293b7558dc4bcbd1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:49</sys_created_on>
+        <sys_id>70a489081b5d0010293b7558dc4bcbd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>task={{Created_1.current}}^observable={{1b915ea7-9632-4f6d-8340-c4e044a182eb.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=d4a449081b5d0010293b7558dc4bcb94^sys_idNOT IN28a489081b5d0010293b7558dc4bcb7f,2ca489081b5d0010293b7558dc4bcb74,64a489081b5d0010293b7558dc4bcb79,aca489081b5d0010293b7558dc4bcb7c"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">d41d0e3fdbff33006aac75868c961916</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="FDActlib_Decode and Attach Safelink URL Observables">d4a449081b5d0010293b7558dc4bcb94</flow>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:48</sys_created_on>
+        <sys_id>28a489081b5d0010293b7558dc4bcb7f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:48</sys_updated_on>
+        <ui_id>04b89f32-2b7b-430b-8abc-9cf09f18e323</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=28a489081b5d0010293b7558dc4bcb7f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>28a489081b5d0010293b7558dc4bcb7f</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:48</sys_created_on>
+        <sys_id>e4a489081b5d0010293b7558dc4bcb81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:48</sys_updated_on>
+        <value>{{133fd07f-2159-4d29-a442-40619fcc0448.Records}}</value>
+        <variable display_value="">19df9109c32632002841b63b12d3aed6</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">981d0e3fdbff33006aac75868c96190c</block>
+        <comment>add it as a new observable</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="FDActlib_Decode and Attach Safelink URL Observables">d4a449081b5d0010293b7558dc4bcb94</flow>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3.3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>04b89f32-2b7b-430b-8abc-9cf09f18e323</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:48</sys_created_on>
+        <sys_id>2ca489081b5d0010293b7558dc4bcb74</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:48</sys_updated_on>
+        <ui_id>33f74c0b-b3a9-418c-ad15-71f0e085119f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=2ca489081b5d0010293b7558dc4bcb74"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>2ca489081b5d0010293b7558dc4bcb74</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:48</sys_created_on>
+        <sys_id>6ca489081b5d0010293b7558dc4bcb77</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:48</sys_updated_on>
+        <value>{{54ff60c1-2d52-4e48-b353-2cc34cfc9b2d.Count}}=0</value>
+        <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>2ca489081b5d0010293b7558dc4bcb74</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:48</sys_created_on>
+        <sys_id>a4a489081b5d0010293b7558dc4bcb78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:48</sys_updated_on>
+        <value>Decoded URL doesn't exist in the repository</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">501d0e3fdbff33006aac75868c961913</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="FDActlib_Decode and Attach Safelink URL Observables">d4a449081b5d0010293b7558dc4bcb94</flow>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3.4.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>6d92f633-5cfb-4f49-8139-75a6ef4c9e7d</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:48</sys_created_on>
+        <sys_id>64a489081b5d0010293b7558dc4bcb79</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:48</sys_updated_on>
+        <ui_id>1b915ea7-9632-4f6d-8340-c4e044a182eb</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=64a489081b5d0010293b7558dc4bcb79"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>64a489081b5d0010293b7558dc4bcb79</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:48</sys_created_on>
+        <sys_id>eca489081b5d0010293b7558dc4bcb7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:48</sys_updated_on>
+        <value>{{54ff60c1-2d52-4e48-b353-2cc34cfc9b2d.Records}}</value>
+        <variable display_value="">19df9109c32632002841b63b12d3aed6</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">901d0e3fdbff33006aac75868c961915</block>
+        <comment>It is an Existing Observable in the Environment</comment>
+        <connected_to>33f74c0b-b3a9-418c-ad15-71f0e085119f</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="FDActlib_Decode and Attach Safelink URL Observables">d4a449081b5d0010293b7558dc4bcb94</flow>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>3.4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>04b89f32-2b7b-430b-8abc-9cf09f18e323</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:48</sys_created_on>
+        <sys_id>aca489081b5d0010293b7558dc4bcb7c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:48</sys_updated_on>
+        <ui_id>6d92f633-5cfb-4f49-8139-75a6ef4c9e7d</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=aca489081b5d0010293b7558dc4bcb7c"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_d4a449081b5d0010293b7558dc4bcb94^sys_idNOT IN5ca449081b5d0010293b7558dc4bcb9e,6ca489081b5d0010293b7558dc4bcb6d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d4a449081b5d0010293b7558dc4bcb94</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:47</sys_created_on>
+        <sys_id>5ca449081b5d0010293b7558dc4bcb9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Secops_FDLibrary" source="x_snc_secops_fdlib">16025ac3db943300de42d90d6896199a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d4a449081b5d0010293b7558dc4bcb94</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 19:16:48</sys_created_on>
+        <sys_id>6ca489081b5d0010293b7558dc4bcb6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Secops_FDLibrary" source="x_snc_secops_fdlib">16025ac3db943300de42d90d6896199a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Secops_FDLibrary">16025ac3db943300de42d90d6896199a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 19:16:48</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
